@@ -1,0 +1,1 @@
+- run a js file > node file_name.js
