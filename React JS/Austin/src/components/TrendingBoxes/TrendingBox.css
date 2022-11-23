@@ -1,0 +1,74 @@
+.BoxesTrending{
+    width: 100%;
+    margin: 0 auto;
+}
+.Trending-box {
+    /* display: inline-block; */
+    /* left: 2%; */
+    position: relative;
+    margin-top: 30px;
+    /* margin: 5px auto 0 auto; */
+}
+.Job-box{
+    width: 250px;
+    height: 200px;
+    background-color: #ff6666;
+    float:left;
+}
+.Income-tax{
+    width: 250px;
+    height: 200px;
+    background-color: #ffc038;
+    float:left;
+}
+.Tech-jobs{
+    width: 250px;
+    height: 200px;
+    background-color: #31b2e0;
+    float:left;
+}
+.Us-millenials{
+    width: 250px;
+    height: 200px;
+    background-color: #34304c;
+    float:left;
+}
+.trending-numbers {
+    /* width: 39px; */
+    /* height: 50px; */
+    color: #fff;
+    font-family: Poppins;
+    font-size: 39px;
+    font-weight: 700;
+    padding: 20px 30px;
+}
+.job-seeker{
+    width: 187px;
+    /* height: 48px; */
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    padding: 0 30px;
+}
+.news-media {
+    width: 187px;
+    /* height: 26px; */
+    color: #ffffff;
+    font-family: Nunito;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 30px 30px 0 30px;
+}
+.forbs-media {
+    /* width: 187px; */
+    /* height: 26px; */
+    color: #ffffff;
+    font-family: Nunito;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 6px 30px 20px 30px;
+}

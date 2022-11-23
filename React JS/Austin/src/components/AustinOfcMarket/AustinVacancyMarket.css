@@ -1,0 +1,46 @@
+.AboutVacancyDetail{
+    float: left;
+    width: 40%;
+    padding: 0px 0px 0 50px;
+}
+.VacancyHedaing {
+    width: 560px;
+    height: 151px;
+    color: #003681;
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 52px;
+    /* margin-top: 1px; */
+}
+.AboutVacancy {
+    width: 480px;
+    /* height: 200px; */
+    color: #222222;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    padding: 35px 0 35px 0;
+}
+.FindButton{
+    width: 117px;
+    height: 22px;
+    color: #ffffff;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 172px;
+    height: 60px;
+    background-color: #003681;
+    border: 1px solid #003681;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.FindButton:hover{
+    background-color: #fff;
+    color: #222222;
+    border: 1px solid #222;
+}

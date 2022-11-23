@@ -1,0 +1,303 @@
+@media (min-width: 801px) and (max-width: 1024px)  {
+    .BannerContent {
+        width: 80%;
+        position: absolute;
+        left: 8%;
+        top: 0;
+        margin-left: 0;
+        /* margin-top: 0px; */
+    }
+    .Navigation {
+        /* height: 90px; */
+        background-color: #ffffff;
+        margin: 40px auto;
+        position: relative;
+        /* box-sizing: border-box; */
+        padding: 30px 0px 30px 0px;
+        width: 500px;
+    }
+    .navigation-logo {
+        background-color: #003681;
+        float: left;
+        margin: -30px 15px 0px 0px;
+        padding: 0px 0px 0 0px;
+    }
+    .Comlogo {
+        margin: 26px 20px;
+        /* height: 50px; */
+        width: 65px;
+    }
+    .Navigation-anchor {
+        display: contents;
+        padding: 35px 0 35px 20px;
+    }
+    .nav1 {
+        /* padding: 35px 30px 35px 100px; */
+        width: 100%;
+        font-size: 9px;
+        padding: 20px 0;
+        margin: 0 5px;
+    }
+    .about-place {
+        width: 80%;
+        /* text-align: left; */
+        padding: 46px 60px;
+    }
+    .Job-box, .Income-tax, .Tech-jobs, .Us-millenials {
+        width: 25%;
+        float: left;
+        overflow: hidden;
+    }
+    .trending-numbers {
+        font-size: 29px;
+        padding: 20px 13px;
+    }
+    .job-seeker {
+        width: 90%;
+        font-size: 15px;
+        line-height: 25px;
+        padding: 0 13px;
+    }
+    .news-media {
+        width: 100%;
+        padding: 30px 0 0 13px;
+    }
+    .forbs-media {
+        padding: 10px 0 0 13px;
+    }
+    .WhyAustin-content {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 30px;
+        display: inline-block;
+    }
+    .WhyImage {
+        float: left;
+        width: 50%;
+    }
+    .Content {
+        float: left;
+        width: 45%;
+        /* height: 200px; */
+    }
+    .BestofList{
+        width: 13%;
+        height: 13%;
+        margin: 0px 30px 0 31px;
+    }
+    .BestofList2 {
+        width: 13%;
+        height: 13%;
+        margin: 10px 30px 0 31px;
+    }
+    .contentOne1, .contentOne {
+        width: 100%;
+        font-size: 20px;
+        padding: 0px 0 0 0;
+        line-height: 20px;
+    }
+    .contentTwo {
+        width: 100%;
+        font-size: 12px;
+        padding: 7px 0 0 0;
+        line-height: 18px;
+    }
+    .AustinPicture {
+        width: 100%;
+    }
+    .BestoflistContent {
+        margin: 0 0 0px 0;
+    }
+    .BestoflistContent2 {
+        margin: 10px 0 0px 0;
+    }
+    .BestoflistContent3 {
+        margin: 11px 0 0px 0;
+    }
+    
+    .GroupOfPeople {
+        width: 100%;
+        display: inline-flex;
+    }
+    .GroupOfPeoplePic {
+        width: 35%;
+        margin: 0 5%;
+    }
+    .AboutAustine {
+        width: 100%;
+        font-size: 17px;
+        line-height: 20px;
+        padding: 60px 0px;
+    }
+    .GroupContentOne {
+        margin: 15px 0 15px 0;
+    }
+    .ArtCultureAbout {
+        width: 100%;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 18px;
+    }
+    .ArtCultureImage {
+        width: 40%;
+        float: right;
+        margin: 0px 0 0px;
+    }
+    .ArtCultureMatter {
+        width: 52%;
+        padding: 15px 0 0 0;
+    }
+    .AustinTechImage {
+        width: 40%;
+        float: none;
+        margin: 10px 0 0 0;
+    }
+    .AboutAustinTech{
+        width: 50%;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 18px;
+    }
+    .TechMatter{
+        width: 100%;
+        padding: 15px 0 10px 0;
+    }
+    .AustinEduContent {
+        margin: 0% auto 6% auto;
+    }
+    .AustinOfcHeading {
+        margin: 20px 0 0 0;
+    }
+    .mnoj {
+        width: 50%;
+        float: left;
+    }
+    .AboutVacancyDetail {
+        width: 50%;
+        padding: 0px 0px 0 0px;
+    }
+    .VacancyContent {
+        float: none;
+        /* margin: -7px 0 0 0; */
+        width: 100%;
+        padding: 13px 0;
+    }
+    .VacancyHedaing {
+        width: 100%;
+        font-size: 25px;
+        height: 45px;
+        line-height: 25px;
+        margin: 12px 0 10px 0;
+    }
+    .VacancyWord {
+        font-size: 13px;
+    }
+    .VacancyNumber {
+        font-size: 15px;
+    }
+    .AboutVacancy {
+        width: 100%;
+        font-size: 16px;
+        line-height: 26px;
+        padding: 35px 0 30px 0;
+    }
+    .WorldClassMatter {
+        float: right;
+        width: 60%;
+    }
+    .WorldClassHeading {
+        width: 100%;
+        font-size: 18px;
+        font-weight: 700;
+        height: 13px;
+    }
+    .WorldClassContent {
+        width: 100%;
+        font-size: 13px;
+        line-height: 17px;
+        padding: 20px 0 10px 0;
+    }
+    .WorldClass {
+        padding: 20px 0 20px 0%;
+    }
+    .CompanyContent {
+        padding: 30px 0 30px 0;
+    }
+    .GetInTouch {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+    .TotalOwnerContent {
+        padding: 0px 0 40px 0;
+    }
+    .MapHeading {
+        margin: 30px auto;
+    }
+    .OwnerHeading {
+        padding: 30px 0;
+    }
+    .AustinSub {
+        margin: 80px auto 30px auto;
+    }
+    .Places {
+        width: 100%;
+        margin: 20px 0;
+    }
+    .PlaceLeft {
+        width: 50%;
+        float: left;
+    }
+    .PlacesRight {
+        padding: 1px 0;
+        /* width: 0%; */
+    }
+    .SubContent {
+        padding: 10px;
+    }
+    .FormBlocks {
+        width: 80%;
+    }
+    .FormInput, .FormInputt {
+        width: 45%;
+        margin: 10px 10px;
+    }
+    .TextMessage {
+        width: 94%;
+        padding: 15px 0 0 0;
+        position: sticky;
+        margin: 10px 10px;
+    }
+    .FormButton {
+        width: 30%;
+        height: 58px;
+        margin: 20px 0px 30px 10px;
+    }
+    .ContactFormHeading {
+        width: 100%;
+        margin: 0 0 0px 10px;
+    }
+    /* .FormInputt {
+        background-position-x: 204px;
+    } */
+    .FooterContent {
+        width: 100%;
+        font-size: 13px;
+    }
+    .ErrorMessages {
+        margin: 7px 0px 50px 10px;
+        line-height: initial;
+        text-transform: initial;
+    }
+    .BackButton {
+        margin: 20px 0 30px 320px;
+    }
+    .Austin-name, .AustinOfcHeading, .OwnerHeading, .MapHeading{
+        font-size: 35px;
+    }
+    .Austin-name {
+        margin: 30px 0;
+    }
+    .AustinTech {
+        margin: 60px auto;
+    }
+}

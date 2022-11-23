@@ -1,0 +1,67 @@
+.AustinOfcMarketContent {
+    width: 100%;
+    margin: 0 auto;
+}
+.AustinOfcHeading{
+    width: 408px;
+    height: 55px;
+    color: #222222;
+    font-family: Poppins;
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 39px;
+    margin: 50px 0;
+}
+.Vacancy {
+    width: 80%;
+    height: 70px;
+    background-color: #f2faf7;
+    margin: 15px 0;
+}
+.DownArrowImg{
+    width: 40px;
+    height: 40px;
+    padding: 15px 25px; 
+    float: left;
+}
+.hh{
+    width:80%;
+    margin: 0 auto;
+}
+.mnoj {
+    width: 40%;
+    float: left;
+}
+.VacancyContent {
+    float: left;
+    /* margin: -7px 0 0 0; */
+    width: 63%;
+    padding: 13px 0;
+}
+.VacancyWord {
+    color: #232323;
+    font-family: Nunito;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.VacancyNumber{
+    color: #222222;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+.MediaSource{
+    width: 230px;
+    height: 20px;
+    color: #232323;
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Nunito;
+    font-weight: 600;
+    padding: 12px 0;
+}
+
+

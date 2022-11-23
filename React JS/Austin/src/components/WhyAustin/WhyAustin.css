@@ -1,0 +1,33 @@
+.WhyAustin-content {
+    width: 77%;
+    margin: 0 auto;
+    padding: 0 155px;
+    display: inline-block;
+}
+.WhyImage{
+    float: left;
+}
+.Austin-name {
+    /* width: 230px; */
+    /* height: 55px; */
+    color: #222222;
+    font-family: Poppins;
+    font-size: 39px;
+    font-weight: 700;
+    /* line-height: 130px; */
+    margin: 50px 0;
+}
+.AustinPicture {
+    width: 570px;
+    /* height: 500px; */
+    background-color: #082539;
+    margin: 0% 0;
+}
+/* .Content{
+    float: left;
+    width: 50%;
+    height: 200px;
+}
+.BestofList{
+    height: 200px;
+} */

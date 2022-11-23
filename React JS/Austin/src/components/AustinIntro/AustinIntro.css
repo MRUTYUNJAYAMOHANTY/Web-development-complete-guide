@@ -1,0 +1,33 @@
+.about-place{
+    width: 65%;
+    text-align: left;
+    padding: 46px 75px;
+}
+.place-austin {
+    /* width: 381px; */
+    /* height: 16px; */
+    color: #fff;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 35px;
+}
+.best-place {
+    width: 381px;
+    /* height: 112px; */
+    color: #fff;
+    font-family: Poppins;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 55px;
+    margin: 10px 0 0 0;
+}
+.Us-news {
+    /* width: 381px; */
+    /* height: 26px; */
+    color: #fff;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 50px;
+}

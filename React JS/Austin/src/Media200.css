@@ -1,0 +1,486 @@
+@media (min-width: 320px) and (max-width: 435px)   {
+    /* .Navigation {
+        background: none;
+        position: relative;
+        box-sizing: border-box;
+    }
+    .navigation-logo {
+        background: none;
+    }
+    .Navigation-anchor {
+        display: none;
+        padding: 35px 0 35px 51px;
+    } */
+    .HomeImage {
+        width: 100%;
+        height: 550px;
+        background-color: rgb(34, 34, 34);
+        position: relative;
+    }
+    .BannerContent {
+        width: 100%;
+        position: absolute;
+        left: 0%;
+        top: 0;
+        margin-left: 0%;
+    }
+    .NavigarionBar {
+        width: 100%;
+        margin: 15px auto;
+    }
+    .Navigation {
+        /* height: 90px; */
+        background: none;
+        margin: 0 auto;
+        position: relative;
+        box-sizing: border-box;
+        padding: 20px 0px 20px 0px;
+    }
+    .navigation-logo {
+        background: none;
+        float: left;
+        margin: 0;
+        padding: 0 0px;
+    }
+    .Comlogo {
+        margin: 0;
+        /* height: 50px; */
+        width: 130px;
+    }
+    .Navigation-anchor {
+        /* display: flex; */
+        padding: 0 21px;
+        width: 100%;
+        position: absolute;
+        top: 200%;
+        z-index: 1;
+        background: #fff;
+        right: -7%;
+    }
+    .nav1{
+        display: block;
+        margin: 0;
+        text-align: center;
+        border-bottom: 1px solid #c1bfbf;
+        width: 100%;
+        padding: 15px 0;
+    }
+    .icon {
+        width: 100%;
+        display: block;
+        padding-top: 20px;
+        margin: 0px;
+        margin-left: -5px;
+    }
+    .fa-bars {
+        display: inline-block;
+        position: absolute;
+        top: 45px;
+        right: 20px;
+        cursor: pointer;
+        width: 10%;
+      }
+   
+    .menuShow{
+        display: block;
+    }
+    .menuHide{
+        display: none;
+    }
+    
+    .about-place {
+        text-align: left;
+        padding: 50px 25px;
+    }
+    .place-austin {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .best-place {
+        width: 280px;
+        font-size: 30px;
+        margin: 5px 0 0 0;
+        line-height: 35px;
+    }
+    .Us-news {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .BoxesTrending {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .Trending-box {
+        /* display: inline-block; */
+        /* left: 2%; */
+        /* position: relative; */
+        /* margin-top: 30px; */
+        margin: 5px 0 0 0;
+        /* width: 100%; */
+    }
+    .trending-numbers {
+        font-size: 23px;
+        padding: 20px 15px;
+    }
+    .job-seeker {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 0px 15px;
+        width: 77%;
+    }
+    .news-media {
+        font-size: 12px;
+        line-height: 15px;
+        padding: 20px 15px 0 15px;
+        width: 100%;
+    }
+    .forbs-media {
+        font-size: 12px;
+        line-height: 15px;
+        padding: 5px 15px 0px 15px;
+    }
+    .Job-box, .Income-tax, .Tech-jobs, .Us-millenials {
+        width: 50%;
+        overflow: hidden;
+        height: 149px;
+        float: left;
+    }
+    .WhyAustin-content {
+        width: 100%;
+        margin: 40px auto 20px auto;
+        padding: 0 0px;
+        display: inline-block;
+    }
+    .Austin-name {
+        margin: 20px 30px;
+        width: 100%;
+    }
+    .Content {
+        float: left;
+        width: 100%;
+        /* height: 200px; */
+        margin: 20px 0 0 0;
+    }
+    .RightContent {
+        padding: 0 40px;
+    }
+    .BestofList {
+        margin: 0px 0px 0 0px;
+        width: 15%;
+        height: 15%;
+    }
+    .BestoflistContent {
+        margin: 0 0 20px 0;
+        padding: 0 10px;
+    }
+    .BestofList2 {
+        margin: 10px 0px 0 0px;
+        width: 15%;
+        height: 15%;
+    }
+    .BestoflistContent2, .BestoflistContent3 {
+        margin: 10px 0 10px 0;
+        padding: 0 10px;
+    }
+    .contentOne1, .contentTwo, .contentOne {
+        width: 100%;
+    }
+    .contentOne1, .contentOne {
+        font-size: 18px;
+    }
+    .contentTwo {
+        font-size: 12px;
+    }
+    .AustinPicture {
+        width: 80%;
+        /* height: 500px; */
+        background-color: #fff;
+        margin: 0 auto;
+        padding: 0 35px;
+    }
+    .AboutAustine {
+        float: none;
+        font-size: 15px;
+        line-height: 20px;
+        padding: 10px 15px;
+        width: 90%;
+    }
+    .GroupOfPeople {
+        width: 96%;
+        padding: 10px;
+        margin: 0;
+    }
+    .GroupOfPeoplePic {
+        width: 50%;
+        /* height: 260px; */
+        margin: 0 50px;
+        /* padding: 0 150px; */
+    }
+    .ArtCultureContent {
+        width: 80%;
+        margin: 20px auto;
+    }
+    .ArtCultureImage {
+        width: 100%;
+        float: none;
+        position: absolute;
+        /* padding: 20px 0;  */
+        top: 100%;
+        margin: 15px 0 0 0;
+        display: none;
+    }
+    /* .ArtCultureAbout{
+        font-size: 18px;
+        line-height: 20px;
+        width: 100%;
+        position: relative;
+    } */
+    .ArtCultureMobileImage {
+        display: block;
+        width: 100%;
+        margin: 20px auto 0 auto;
+    }
+    .ArtCultureMatter {
+        width: 100%;
+        padding: 20px 0 0 0;
+    }
+    
+   .AustinTech {
+        margin: 0 auto;
+        width: 80%;
+    }
+    .AustinTechImage {
+        width: 80%;
+        background-color: #ffffff;
+        float: none;
+        position: absolute;
+        margin: 230px auto 0px auto;
+        /* padding: 20px 0; */
+        /* top: 600%; */
+        display: none;
+    }
+    .AboutAustinTech {
+        width: 100%;
+        color: #222222;
+        font-family: "Poppins";
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 22px;
+        float: none;
+        margin: 0px 0 0 0;
+        /* position: relative; */
+    }
+    .ArtCultureAbout {
+        font-size: 15px;
+    }
+    .TechMatter {
+        width: 100%;
+        padding: 20px 0;
+    }
+    .AustinEduContent {
+        width: 80%;
+        margin: 20px auto;
+    }
+    .AustinOfcHeading {
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+    .mnoj {
+        width: 90%;
+        float: none;
+        margin: 0 auto;
+    }
+    .hh {
+        width: 90%;
+    }
+    .Vacancy {
+        width: 100%;
+        height: 70px;
+        margin: 0 0 15px 0;
+    }
+    .DownArrowImg {
+        width: 40px;
+        height: 40px;
+    }
+    .VacancyWord {
+        font-size: 11px;
+        line-height: 20px;
+    }
+    .VacancyNumber {
+        font-size: 15px;
+    }
+    .VacancyContent {
+        float: none;
+        /* margin: -7px 0 0 0; */
+        width: 63%;
+        padding: 18px 50px;
+    }
+    .AboutVacancyDetail {
+        /* float: left; */
+        width: 100%;
+        padding: 10px 0;
+        margin: 0 auto;
+    }
+    .VacancyHedaing {
+        width: 100%;
+        font-size: 35px;
+        line-height: 35px;
+        margin: 0 auto;
+    }
+    .VacancyHedaing {
+        width: 100%;
+        font-size: 25px;
+        line-height: 30px;
+        margin: 0px auto;
+        height: 100px;
+    }
+    .AboutVacancy {
+        width: 100%;
+        font-size: 15px;
+        padding: 0 0 20px 0;
+    }
+    .FindButton {
+        width: 100%;
+    }
+    .Places {
+        width: 100%;
+        margin: 20px auto;
+    }
+    .PlaceLeft {
+        /* width: 0%; */
+        float: none;
+    }
+    .PlacesRight {
+        padding: 0;
+    }
+    .MostDiverse {
+        width: 100%;
+        margin: 15px;
+    }
+    .WorldClass {
+        padding: 0;
+        width: 80%;
+    }
+    .WorldClassPicture {
+        width: 100%;
+        height: auto;
+        position: relative;
+        display: none;
+    }
+    .WorldClassMatter {
+        margin: 0px 0 40px 0px;
+        width: 100%;
+    }
+    .WorldClassHeading {
+        width: 100%;
+        /* height: 22px; */
+        color: #222222;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .WorldClassMobilePicture {
+        display: block;
+        width: 100%;
+        padding: 7px 0 0px 0;
+    }
+    .WorldClassContent {
+        width: 100%;
+        /* height: 82px; */
+        font-size: 13px;
+        line-height: 20px;
+        /* padding: 0px 0px 0px 0; */
+        margin: 0px 0 30px 0;
+        padding: 10px 0;
+    }
+    .GetInTouch {
+        /* font-size: 30px;
+        padding: 40px 190px; */
+        width: 100%;
+    }
+    .TotalOwnerContent {
+        width: 100%;
+        margin: 45% auto 0 auto;
+        display: grid;
+        background-color: #fff;
+        padding: 30px 0 0px 0;
+    }
+    .CompanyContent {
+        width: 100%;
+        margin: 0px auto;
+        padding: 20px 0 0px 0;
+    }
+    .OwnerHeading {
+        padding: 0;
+        line-height: 30px;
+    }
+    .MapHeading {
+        margin: 10px auto;
+    }
+    .MostDiverseCentral {
+        font-size: 12px;
+    }
+    .MostDiverseCentral span {
+        font-size: 11px;
+    }
+    .SubBorder {
+        display: inline-block;
+        padding: 5px 0;
+        width: 100%;
+    }
+    .SubNames {
+        text-align: center;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .SubContent {
+        width: 90%;
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+    .AustinSub {
+        margin: 0 auto;
+        width: 100%;
+    }
+    .ContactFormHeading {
+        margin: 20px 0 0px 0;
+    }
+    .FormBlocks {
+        margin: 0;
+        width: 100%;
+    }
+    .FormInput, .FormInputt, .FormButton {
+        width: 100%;
+    }
+    .TextMessage {
+        width: 100%;
+        padding: 15px 0 0 0;
+        text-indent: 10%;
+    }
+    .FormInput, .FormInputt, .TextMessage{
+        margin: 9px 0;
+    } 
+    /* .FormInputt {
+        background-position-x: 220px;
+    } */
+    .BackButton {
+        width: 30%;
+        margin: 20px 180px 30px 130px;
+    }
+    .Text {
+        font-size: 20px;
+    }
+    .Thankyou {
+        margin: 0px auto;
+    }
+    .FooterContent {
+        width: 100%;
+        font-size: 12px;
+    }
+    .ErrorMessages {
+        line-height: 25px;
+    }
+    .Austin-name, .AustinOfcHeading, .OwnerHeading, .MapHeading{
+        font-size: 23px;
+    }
+}

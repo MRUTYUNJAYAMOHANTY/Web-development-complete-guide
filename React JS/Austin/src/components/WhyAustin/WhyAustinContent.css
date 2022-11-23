@@ -1,0 +1,60 @@
+.Content {
+    float: left;
+    width: 45%;
+    /* height: 200px; */
+}
+.BestofList {
+    width: 75px;
+    height: 75px;
+    margin: 0px 50px 0 65px;
+}
+.RightContent{
+    display: inline-flex;
+    position: relative;
+}
+.BestoflistContent{
+    margin: 0 0 20px 0;
+}
+.contentOne {
+    width: 264px;
+    /* height: 29px; */
+    color: #222222;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.30;
+    text-transform: uppercase;
+}
+.contentTwo {
+    width: 264px;
+    /* height: 20px; */
+    color: #232323;
+    font-family: Nunito;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 7px 0 0 0;
+}
+.BestofList2 {
+    margin: 10px 50px 0 65px;
+    width: 75px;
+    height: 75px;
+}
+.BestoflistContent2{
+    margin: 10px 0 15px 0;
+}
+.BestoflistContent3{
+    margin: 11px 0 11px 0;
+    /* padding: 6px 0; */
+}
+.contentOne1 {
+    width: 264px;
+    /* height: 7px; */
+    color: #222222;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+    padding: 0px 0 0 0;
+}

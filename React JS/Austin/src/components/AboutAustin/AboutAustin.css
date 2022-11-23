@@ -1,0 +1,117 @@
+.AustinCity{
+    width: 100%;
+    margin: 0 auto;
+}
+.ArtCultureContent{
+    width: 80%;
+    margin: 0 auto;
+}
+.ArtCultureHeading {
+    width: 134px;
+    /* height: 30px; */
+    background-color: #ffc038;
+    padding: 10px 0 10px 30px;
+}
+.ArtCultureHeading p {
+    /* width: 104px; */
+    /* height: 21px; */
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* padding: 5px 15px; */
+}
+.ArtCultureAbout {
+    /* width: 97%; */
+    /* height: 20%; */
+    color: #222222;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    /* margin: 0 1px; */
+    /* float: left; */
+}
+.ArtCultureImage {
+    width: 35%;
+    /* height: 19.1%; */
+    /* border: 1px solid #dadada; */
+    background-color: #ffffff;
+    float: right;
+    margin: 0px 40px 0 0px;
+}
+.AustinTech {
+    margin: 130px auto;
+    width: 80%;
+}
+.AustinTechImage{
+    width: 35%;
+    /* height: 220px;
+    border: 1px solid #dadada; */
+    background-color: #ffffff;
+    float: left;
+}
+.AboutAustinTech {
+    width: 54.7%;
+    /* height: 180px; */
+    color: #222222;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    float: right;
+    margin: 0px 0 0 0;
+}
+.TechHeading {
+    /* width: 67px; */
+    /* height: 30px; */
+    background-color: #31b2e0;
+    border: 1px lighter #31b2e0;
+    width: 37px;
+    /* height: 21px; */
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 30px 10px 30px;
+}
+.AustinEduContent {
+    width: 80%;
+    margin: 36% auto 10% auto;
+}
+.AustineEduHeading p{
+    /* width: 83px;
+    height: 21px; */
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* padding: 5px 15px; */
+}
+.AustineEduHeading {
+    width: 113px;
+    /* height: 30px; */
+    background-color: #ff6666;
+    padding: 10px 0 10px 30px;
+}
+.ArtCultureMatter {
+    width: 47%;
+    padding: 25px 0 0 0;
+}
+.TechMatter {
+    width: 91%;
+    padding: 25px 0;
+}
+/* .TechMatterTwo{
+    width: 91%;
+} */
+.AboutAustinEnd{
+    /* width: 99.5%; */
+    border: 1px solid #dadada;
+}
+.ArtCultureMobileImage{
+    display: none;
+}

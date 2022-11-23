@@ -1,0 +1,29 @@
+.GroupOfPeople {
+    width: 100%;
+    /* height: 20%; */
+    background-color: #001834;
+    /* clear: both; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* background-size: 100% 100%; */
+    margin: 5% 0% 5% 0%;
+}
+.GroupOfPeoplePic {
+    width: 300px;
+    /* height: 260px; */
+    margin: 0 11%;
+}
+.AboutAustine {
+    float: right;
+    width: 539px;
+    height: 157px;
+    color: #ffffff;
+    font-family: "Poppins";
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    padding: 57px 100px;
+}
+.GroupContentOne{
+    margin: 0 0 10px 0;
+}
