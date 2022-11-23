@@ -1,7 +1,0 @@
-/*
- * Public API Surface of common-lib
- */
-export * from './lib/common-lib.service';
-export * from './lib/common-lib.component';
-export * from './lib/common-lib.module';
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL2NvbW1vbi1saWIvc3JjL3B1YmxpYy1hcGkudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0dBRUc7QUFFSCxjQUFjLDBCQUEwQixDQUFDO0FBQ3pDLGNBQWMsNEJBQTRCLENBQUM7QUFDM0MsY0FBYyx5QkFBeUIsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qXG4gKiBQdWJsaWMgQVBJIFN1cmZhY2Ugb2YgY29tbW9uLWxpYlxuICovXG5cbmV4cG9ydCAqIGZyb20gJy4vbGliL2NvbW1vbi1saWIuc2VydmljZSc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9jb21tb24tbGliLmNvbXBvbmVudCc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9jb21tb24tbGliLm1vZHVsZSc7XG4iXX0=
