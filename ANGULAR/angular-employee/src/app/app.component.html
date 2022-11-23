@@ -1,0 +1,12 @@
+<div class="container" *ngIf="!login">
+  <app-login></app-login>
+</div>
+
+
+<div *ngIf="login">
+  <app-topnav></app-topnav>
+  <div class="container minheight450">
+    <router-outlet></router-outlet>
+  </div>
+  <app-footer></app-footer>
+</div>

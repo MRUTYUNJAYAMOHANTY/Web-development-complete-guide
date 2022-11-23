@@ -1,0 +1,74 @@
+<br>
+<div class="row">
+  <div class="col-md-2"></div>
+
+  <div class="col-md-4">
+
+    <select class="form-control" [(ngModel)]="jobid" (change)="getProfile(newsts.value)">
+      <option>Select Job</option>
+      <option *ngFor="let job of alljob " value="{{job.jobid}}">{{job.jobtitle}}</option>
+    </select>
+
+  </div>
+
+  <div class="col-md-4">
+
+    <select class="form-control" #newsts (change)="getProfile(newsts.value)">
+      <option>sent</option>
+      <option>Selected</option>
+      <option>Sortlisted</option>
+      <option>Rejected</option>
+      <option>Joined</option>
+      <option>Onhold</option>
+
+    </select>
+
+  </div>
+
+  <div class="col-md-2"></div>
+  
+</div>
+
+<br>
+
+<div class="row">
+  <div class="col-md-12">
+    <h3 class="text-center">Shared New Profile:{{profile.length}}</h3>
+
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Mobile</th>
+          <th>E-mail</th>
+          <th>Qualification</th>
+          <th>Year Of Pass</th>
+          <th>Marks%</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let pro of profile">
+          <td>{{pro.name}}</td>
+          <td>{{pro.mobile}}</td>
+          <td>{{pro.email}}</td>
+          <td>{{pro.qualification}}</td>
+          <td>{{pro.passingyear}}</td>
+          <td>{{pro.marks}}</td>
+          <td>
+            <select #sts (change)="updateStatus(sts.value,pro.id)">
+              <option>sent</option>
+              <option>Selected</option>
+              <option>Sortlisted</option>
+              <option>Rejected</option>
+              <option>Joined</option>
+              <option>Onhold</option>
+            </select>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+  
+</div>

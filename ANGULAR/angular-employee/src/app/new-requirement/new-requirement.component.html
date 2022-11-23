@@ -1,0 +1,88 @@
+<br>
+<div class="row" *ngIf="blocksts">
+  <div class="col-md-12">
+    <button class="btn btn-info btn-sm" (click)="enableblock('P')"> + Post Requirement</button>
+    <br><br>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Job Id</th>
+          <th>Job Title</th>
+          <th>Salary</th>
+          <th>City</th>
+          <th>Job Description</th>
+          <th>Status</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let job of alljob">
+          <td>{{job.jobid}}</td>
+          <td>{{job.jobtitle}}</td>
+          <td>{{job.minsal}} To {{job.maxsal}} / Annum</td>
+          <td>{{job.loaction}}</td>
+          <td>{{job.jobdescription}}</td>
+          <td>{{job.status}}</td>
+          <td> --------- </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="row" *ngIf="!blocksts">
+  
+  <div class="col-md-2"></div>
+
+  <div class="col-md-8">
+    <div class="panel panel-primary">
+      <div class="panel-heading">Post Requirement</div>
+      <div class="panel-body">
+        <p class="text-center">{{msg}}</p>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label>Job title / Designation</label>
+              <input type="text" class="form-control" [(ngModel)]="title">
+            </div>
+            <div class="form-group">
+              <label>City / Location</label>
+              <input type="text" class="form-control" [(ngModel)]="city">
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="form-group">
+              <label>Min Salary Per Anum</label>
+              <input type="number" class="form-control" [(ngModel)]="minsal">
+            </div>
+            <div class="form-group">
+              <label>Max Salary Per Anum</label>
+              <input type="number" class="form-control" [(ngModel)]="maxsal">
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-group">
+              <label>Job Description</label>
+              <textarea id="" cols="30" rows="5" class="form-control" [(ngModel)]="jd"></textarea>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="form-group text-center">
+          <button class="btn btn-success" (click)="postData()">Post Requirements</button>
+          &nbsp;
+          <button class="btn btn-danger " (click)="enableblock('C')"> Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-2"></div>
+
+</div>

@@ -1,0 +1,30 @@
+<div class="row">
+
+  <div class="col-md-12">
+
+    <h3 class="text-center">In Joined, Invoices</h3>
+    
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Employee Name</th>
+          <th>Employee Mobile</th>
+          <th>Employee Email</th>
+          <th>Employee Qualification</th>
+          <th>Employee Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let row of allinvoice">
+          <td>{{row.name}}</td>
+          <td>{{row.mobile}}</td>
+          <td>{{row.email}}</td>
+          <td>{{row.qualification}}</td>
+          <td>{{row.status}}</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+
+</div>

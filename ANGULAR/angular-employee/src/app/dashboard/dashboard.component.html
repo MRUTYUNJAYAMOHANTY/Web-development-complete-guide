@@ -1,0 +1,68 @@
+<div class="row text-center">
+  <div class="col-md-12">
+    <h3 class="text-info">
+      Dashboard
+    </h3>
+  </div>
+</div>
+
+<div class="row form-group">
+
+  <div class="col-md-4">
+    <div class="well">
+      <i class="fa fa-users fa-3x fa-pull-left text-info"></i>
+      <h4 class="text-info"> {{dashboard.allprofile}} New Profiles </h4>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="well">
+      <i class="fa fa-list fa-3x fa-pull-left text-warning"></i>
+      <h4 class="text-info">{{dashboard.selected}} Selected Profiles</h4>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="well">
+      <i class="fa fa-check fa-3x fa-pull-left text-success"></i>
+      <h4 class="text-info"> {{dashboard.sortlisted}} Sortlisted Profiles</h4>
+    </div>
+  </div>
+
+</div>
+
+<div class="row form-group">
+
+  <div class="col-md-4">
+    <div class="well">
+      <i class="fa fa-handshake fa-3x fa-pull-left text-warning"></i>
+      <h4 class="text-info">{{dashboard.joined}} joined</h4>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="well">
+      <i class="fa fa-trash fa-3x fa-pull-left text-danger"></i>
+      <h4 class="text-info">{{dashboard.rejected}} Rejected Profiles</h4>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="well">
+      <i class="fa fa-file fa-3x fa-pull-left text-success"></i>
+      <h4 class="text-info">{{dashboard.joined}} Invoices </h4>
+    </div>
+  </div>
+
+  <div class="row form-group">
+
+    <div class="col-md-4">
+      <a routerLink="../postRequirement">
+        <div class="well">
+          <i class="fa fa-folder fa-3x fa-pull-left text-info"></i>
+          <h4 class="text-info">{{alljob.length}} Requirements </h4>
+        </div>
+      </a>
+    </div>
+
+  </div>
