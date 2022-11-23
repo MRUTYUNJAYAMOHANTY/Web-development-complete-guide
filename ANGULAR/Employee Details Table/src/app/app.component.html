@@ -1,0 +1,50 @@
+ <div class="container-fluid">
+    <h1 *ngIf="employeeDetails"> Employee Details : Total Number Of Employees - {{employeeDetails.length}} </h1>
+    <hr>
+    <div class="row">
+      <div class="col-md-2">
+        <select class="form-control" [(ngModel)]= "selectedDep"  (change)= "departmet($event)"> 
+          <option value="department" selected > Department </option> 
+          <option *ngFor= "let dept of depvalue ">
+            {{dept}}
+          </option> 
+        </select>
+      </div>
+      <div class="col-md-3">
+        <input class="form-control" name="empField" [(ngModel)]="empField"  type="text" placeholder="Name/Email">
+      </div>
+      <div class="col-md-1">
+        <button class="btn btn-primary" type="button" (click)="search()">Search</button>
+      </div>
+      <div class="col-md-3">
+        <button type="button" class="btn btn-danger" (click)="clear()">Reset and Reload Data </button>
+     </div>
+     <div class="col-md-1"></div>
+     <div class="col-md-2">
+        <select [(ngModel)]= "sortByselected" name="sortselect" (change)="sortBy($event)" 
+        class="form-control" >
+        <option *ngFor = "let sort of SortBy" [value]="sort.name">{{sort.name}}</option>
+        </select>
+    </div>
+    </div>
+    <hr>
+    <div class="row form-group">
+       <div class="col-md-12">
+        <table class="table table-bordered">
+          <thead>
+           <th>Employee Name</th>
+           <th>Age</th>
+           <th>Email Address</th>
+           <th>Departments</th>
+          </thead>
+          <tbody *ngFor="let data of employeeDetails">
+            <tr>
+              <td>{{data.name}}</td>
+              <td>{{data.age}}</td>
+              <td>{{data.email}}</td>
+              <td>{{data.departments.length}}</td>
+            </tr>
+          </tbody>
+        </table>
+       </div>
+ </div>
