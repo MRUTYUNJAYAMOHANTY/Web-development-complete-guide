@@ -1,0 +1,23 @@
+How to use the downloaded files
+
+1) Run "npm install" in the extracted folder
+2) Run "npm start" to view the project
+3) Enter your Firebase project ID into the .firebaserc file before deploying
+
+After npm install you might see the below error. To resolve the issue follow below solution
+I am getting the below error in my code:
+
+TypeError: composeEnhancers is not a function
+const store = createStore(rootReducer, composeEnhancers(
+    applyMiddleware(thunk)
+));
+
+solution :
+  In chrome -
+    . open chrome web store > https://chrome.google.com/webstore/category/extensions
+    . In search type Rdeux > https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd
+       install this extension / Add Extension to browser
+     ** Optional
+        Install another extension by searching REACT 
+        https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
+    
