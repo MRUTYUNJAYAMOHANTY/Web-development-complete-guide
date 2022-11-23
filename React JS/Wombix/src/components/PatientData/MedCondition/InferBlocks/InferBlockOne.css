@@ -1,0 +1,12 @@
+.BlockThreeButtons{
+    /* width: 90%; */
+    margin: 20px auto;
+}
+.ButtonsBlock{
+    margin: 50px 0 50px 0;
+}
+.BlockOneHeading{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #a0a0a0;
+}

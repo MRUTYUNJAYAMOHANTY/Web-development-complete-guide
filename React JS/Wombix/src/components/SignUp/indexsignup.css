@@ -1,0 +1,131 @@
+.signup {
+    font-weight: 600;
+    font-size: larger;
+    padding-bottom: 34px;
+    padding-left: 30%;
+    /* padding-top: 40px; */
+    color:rgb(90, 90, 90);
+}
+.container{
+    padding-top: 18px;
+    
+ }
+ .gray{
+     width: 42%;
+     margin: 0 auto;
+     background-color: rgb(250, 246, 246);
+     border: 1px solid rgb(194, 191, 191);
+     border-radius: 3px;
+     margin-top: 3%;
+    
+     opacity: 0.9;
+ }
+ .background {
+    width: 80%;
+    height: 499px;
+    /* height: 30%; */
+    margin: 0 auto;
+    background-color: white;
+    /* border: 1px solid rgb(216, 213, 213); */
+    /* border-radius: 3px; */
+    /* margin-top: 7%; */
+    /* padding: 25px; */
+}
+.username {
+    width: 87%;
+    border: 0 0 1px 0 gray solid;
+    /* padding-left: 40px; */
+    margin-bottom: 36px;
+    border: none;
+    border-bottom: 1px solid rgb(78, 77, 77);
+    outline: none;
+    text-indent: 8%;
+    background-color:  rgb(250, 246, 246);
+    color:black;
+    padding-bottom: 7px;
+   
+}
+/* .sigins{
+
+} */
+.continue{
+    font-weight: 600;
+    font-size: 20px;
+    color:rgb(75, 71, 71);
+}
+.goback{
+width: 30%;
+margin:0 auto;
+margin-top: 20px;
+padding-top: 20px;
+}
+.emailsign{
+    width: 87%;
+    border: 0 0 1px 0 gray solid;
+    /* padding-left: 40px; */
+    margin-bottom: 36px;
+    border: none;
+    border-bottom: 1px solid rgb(78, 77, 77);
+    outline: none;
+    text-indent: 8%;
+    background-color:  rgb(250, 246, 246);
+    color:black;
+    padding-bottom: 7px;
+}
+.password {
+ 
+    width: 87%;
+    border: 0 0 1px 0 gray solid;
+    /* padding-left: 40px; */
+    margin-bottom: 36px;
+    border: none;
+    border-bottom: 1px solid rgb(78, 77, 77);
+    outline: none;
+    text-indent: 8%;
+    background-color:  rgb(250, 246, 246);
+    color:black;
+    padding-bottom: 7px;
+}
+.password2{
+ 
+    width: 87%;
+    border: 0 0 1px 0 gray solid;
+    /* padding-left: 40px; */
+    margin-bottom: 36px;
+    border: none;
+    border-bottom: 1px solid rgb(78, 77, 77);
+    outline: none;
+    text-indent: 8%;
+    background-color:  rgb(250, 246, 246);
+    color:black;
+    padding-bottom: 7px;
+}
+.mk{
+    color:#ee3939;
+}
+.rj {
+    color:#ee3939;
+}
+.jh {
+    color:#ee3939;
+}
+.enter{
+    background-color: #ee3939;
+    color: white;
+    outline: none;
+    border-radius: 85px;
+    padding: 11px 63px;
+    margin-top: 34px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    /* width: 96%; */
+    /* margin-left: 81px; */
+}
+.input-field1{
+    width:40%;
+    margin: 0 auto;
+    padding-top:18%;
+   padding-bottom:5% ;
+  
+}

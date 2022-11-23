@@ -1,0 +1,54 @@
+.DialogueBox{
+    border-radius: 20px;
+    /* width: 38vw;
+    margin: 38vh auto;
+    background: white;
+    padding: 2rem;
+    outline: none; */
+}
+.DialogueBoxContent {
+    /* display: flex; */
+    width: 80%;
+    margin: 0 auto;
+}
+.Buttons{
+    margin: 20px 0 0 30px;
+}
+.SaveChanges{
+    text-transform: capitalize;
+    color: #a0a0a0;
+    font-weight: 600;
+    margin: 0px 0 0 45px;
+}
+.CancelButton {
+    padding: 10px 33px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #a0a0a0;
+    background-color: #ff564a;
+    color: #fff;
+    font-size: 15px;
+    margin: 0 15px 0 10px;
+    transition: 0.6s;
+    cursor: pointer;
+    font-weight: 600;
+}
+.OkButton{
+    padding: 10px 30px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #a0a0a0;
+    background-color: #0ac3db;
+    color: #fff;
+    font-size: 15px;
+    margin: 0 15px 0 10px;
+    transition: 0.6s;
+    cursor: pointer;
+    font-weight: 600;
+}
+.OkButton:hover{
+    box-shadow: 0px 0px 10px 5px #74dae7;
+}
+.CancelButton:hover{
+    box-shadow: 0px 0px 10px 5px #d35f56;
+}

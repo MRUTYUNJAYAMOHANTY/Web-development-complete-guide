@@ -1,0 +1,216 @@
+.MedicalCondition {
+    width: 100%;
+    margin: 0 auto;
+    /* position: absolute;
+    right: 5%;
+    top: 25%; */
+}
+.MedConMainPage {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ffff;
+    /* display: flex; */
+    /* position: relative; */
+    padding: 15px 0 30px 0;
+    /* position: absolute; */
+    /* left: 0%; */
+    /* right: 0%; */
+    /* top: 15%; */
+    /* bottom: 15px; */
+}
+.MedHeading {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    width: 70%;
+    margin: 0 auto;
+    padding: 15px 120px 15px 120px;
+    float: left;
+    font-family: 'Nunito', sans-serif;
+    color: #ff564a;
+}
+.WrongIcon {
+    font-size: 70px;
+    float: left;
+    color: #ff564a;
+    text-shadow: 5px 5px 5px #b1b0b0;
+    padding: 0 0 0 15px;
+}
+.CorrectIcon{
+    font-size: 70px;
+    color: #ff564a;
+    text-shadow: 5px 5px 5px #b1b0b0;
+}
+.PregnencyCon{
+    /* position: fixed;   */
+    width: 100%;  
+    /* height: 100%;  
+    top: 0;  
+    left: 0;  
+    right: 0;  
+    bottom: 0;   */
+    margin: 0 auto;  
+    /* background-color: rgba(0,0,0, 0.5);   */
+    overflow: auto;
+}
+
+.MedConContentPage{
+    width: 90%;
+    margin: 30px auto;
+    border: 1px solid #eeeeee;
+    padding: 10px 0px 40px 0;
+    box-shadow: 30px 20px 30px 30px #81818133, 30px 20px 50px 30px #81818133;
+    background-color: #fff;
+}
+.ContentHeading{
+    margin: 15px auto;
+    color: #acacac;
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 0 60px 0 60px;
+}
+.BorderLine{
+    border-bottom: 1px solid #acacac;
+}
+
+.ConditionView{
+    display: block;
+}
+.ConditionHide{
+    display: none;
+}
+.MCDropDown {
+    /* display: grid; */
+    border: 1px solid gray;
+    width: 15%;
+    margin: 0 auto;
+    background-color: #fff;
+    color: red;
+    float: right;
+    text-align: left;
+    position: absolute;
+    left: 81.6%;
+}
+.deleteBotton{
+    padding: 0 0 0 30px;
+}
+.MedConToggleHead{
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    margin: 0 auto;
+}
+.MCNames{
+    display: block;
+}
+.DropDownButton{
+    /* float: right; */
+    text-align: right;
+    position: relative;
+    display: none;
+}
+.DatePicker {
+    color: #0ac3db;
+    width: 51%;
+    /* padding: 20px; */
+    font-size: 20px;
+    padding: 10px 0 10px 0;
+    text-indent: 4%;
+}
+.LmpDate{
+    margin: 0 60px 0 0px;
+}
+.Gestation {
+    margin: 0 0px 0 80px;
+    
+}
+.BlockOne{
+    display: flex;
+    width: 88%;
+    margin: 0 auto 20px auto;
+}
+.LmpName{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #a0a0a0;
+    padding: 0px 0 0px 0;
+    margin: 15px 0 15px 0px;
+}
+.GestationName{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #a0a0a0;
+    padding: 0px 0 0px 0;
+    margin: 15px 0 15px 0px;
+}
+.GestationInput {
+    /* width: 52%; */
+    /* padding: 20px; */
+    font-size: 20px;
+    padding: 10px 0 10px 0;
+    text-indent: 28%;
+    border: 1px solid #a0a0a0;
+    font-weight: 600;
+    color: #a0a0a0;
+}
+.BlockTwo{
+    display: flex;
+    width: 88%;
+    margin: 25px auto 25px auto;
+}
+.BorderRightLine{
+    border-right: 1px solid #949494;
+    margin: 27px 40px 0px 0;
+}
+.byLmp{
+    text-transform: capitalize;
+}
+.BTwoEddButtons, .BTwoLmpDate, .BTwoEddScan{
+    width: 25%;
+}
+.BlockTwoButton {
+    width: 45%;
+    /* padding: 20px; */
+    font-size: 20px;
+    padding: 12px 0 12px 0;
+    text-indent: 4%;
+    border: 1px solid #9c9c9c;
+    margin: 0 10px 0 0px;
+    background-color: #fff;
+    outline: none;
+    cursor: pointer;
+    color: #a0a0a0;
+}
+.active{
+    width: 45%;
+    /* padding: 20px; */
+    font-size: 20px;
+    padding: 12px 0 12px 0;
+    text-indent: 4%;
+    border: 1px solid #9c9c9c;
+    margin: 0 10px 0 0px;
+    background-color: #0ac3db;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+}
+.DatePickerTwo{
+    width: 51%;
+    color: #0ac3db;
+    /* padding: 20px; */
+    font-size: 20px;
+    padding: 10px 0 10px 0;
+    text-indent: 4%;
+}
+.BlockThree{
+    /* display: flex; */
+    width: 88%;
+    margin: 0px auto 25px auto;
+}
+.GestationWeek{
+    font-size: 17px;
+    color: #acacac;
+}
+

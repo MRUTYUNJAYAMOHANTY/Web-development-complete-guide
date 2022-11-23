@@ -1,0 +1,48 @@
+
+.BlockThreeBtns{
+    width: 45%;
+    display: flex;
+}
+
+.BlockThreeHead{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #a0a0a0;
+    padding: 0px 0 0px 0;
+    margin: 20px auto;
+}
+
+
+.BlockThreeButton[type=radio] {
+    position: absolute;
+    visibility: hidden;
+    display: none;
+}
+.buttonActiveThree {
+    width: 45%;
+    /* padding: 20px; */
+    font-size: 20px;
+    padding: 12px 40px 12px 40px;
+    /* text-indent: 4%; */
+    border: 1px solid #9c9c9c;
+    margin: 0 45px 0 0px;
+    background-color: #fff;
+    outline: none;
+    cursor: pointer;
+    color: #a0a0a0;
+    text-transform: capitalize;
+}
+.BlockThreeButton[type=radio]:checked + .buttonActiveThree{
+    width: 45%;
+    /* padding: 20px; */
+    font-size: 20px;
+    padding: 12px 40px 12px 40px;
+    /* text-indent: 4%; */
+    border: 1px solid #9c9c9c;
+    margin: 0 45px 0 0px;
+    background-color: #0ac3db;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    text-transform: capitalize;
+  }

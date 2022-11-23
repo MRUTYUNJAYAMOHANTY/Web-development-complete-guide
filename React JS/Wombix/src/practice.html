@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <input type="date" id="presentdate" />
+    <input type="date" id="anotherdate" /> -->
+    <!-- <input id="first" value="1/1/2000"/>
+    <input id="second" value="1/1/2001"/>
+    <script>
+        // const oneDay = 24 * 60 * 60 * 1000; // hours*minutes*seconds*milliseconds
+        // const currentDate = new Date();
+        // const lmpDate = new Date(2020, 1, 11);
+        // const diffDays = Math.round(Math.abs((currentDate - lmpDate) / oneDay));
+        // document.write(diffDays);
+        // const oneWeek = 168 * 10080 * 604800 * 604800000; // hours*minutes*seconds*milliseconds
+        // const firstDateWeek = new Date(2020, 5, 09);
+        // const secondDateWeek = new Date(2020, 4, 22);
+        // const diffDaysWeek = Math.round(Math.abs((firstDateWeek - secondDateWeek) / oneWeek));
+        // document.write(diffDays +"<br>"+ diffDaysWeek);
+        function parseDate(str) {
+        var mdy = str.split('/');
+        return new Date(mdy[2], mdy[0]-1, mdy[1]);
+        }
+
+        function datediff(first, second) {
+            // Take the difference between the dates and divide by milliseconds per day.
+            // Round to nearest whole number to deal with DST.
+            return Math.round((second-first)/(1000*60*60*24));
+        }
+        document.write(datediff(parseDate(first.value), parseDate(second.value)));
+    </script> -->
+    <script>
+        // var lmpDate = new Date()   // current date - LMP date
+        // var lmpgestation = new Date("Dec 31, 2019");
+        // var gestationOutput = lmpDate - lmpgestation;
+        // var gestation = Math.floor(gestationOutput / (1000 * 60 * 60 * 24));
+        // document.write(gestation);
+        //     // or //
+        // var lmpDate = new Date() - new Date("Dec 31, 2019");
+        // var gestationOutput = Math.floor(lmpDate / (1000 * 60 * 60 * 24));
+        // document.write(gestationOutput);
+        var lmpDate = new Date() - new Date("Dec 20, 2019");
+        var gestationOutput = Math.floor(lmpDate / (1000 * 60 * 60 * 24));
+        var weeks = parseInt(gestationOutput/7);
+        var days = gestationOutput % 7
+        document.write(days + "/" + weeks);
+    </script>
+    
+</body>
+</html>

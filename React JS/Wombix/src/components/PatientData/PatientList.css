@@ -1,0 +1,143 @@
+.PatientSearch{
+    width: 100%;
+    margin: 0 auto;
+}
+.HeaderSection{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ff564a;
+}
+.HeaderContent{
+    width: 94%;
+    margin: 0 auto;
+    display: flex;
+    padding: 40px 0 20px 0;
+}
+.PatientList{
+    color: #fff;
+    margin: 0 0 0 20px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.backArrow{
+    color: white;
+    font-size: 26px;
+    cursor: pointer;
+}
+.searchBar{
+    width: 100%;
+    margin: 0 auto;
+    border: none;
+    padding: 50px 0 40px 0;
+    background-color: #fcf6e8;
+}
+.searchInput{
+    width: 98%;
+    margin: 0 auto;
+}
+.searchIcon {
+    position: absolute;
+    padding: 20px 35px;
+    font-size: 18px;
+    color: #d4d2cf;
+}
+.searchButton {
+    /* width: 8%; */
+    padding: 18.4px 43px 18.5px 43px;
+    background-color: #ff564a;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+    color: #fff;
+    cursor: pointer;
+}
+.searchButton:hover{
+    background-color:#cf6262;
+}
+.searchInputBox {
+    padding: 18px 0px 18px 0px;
+    width: 92%;
+    font-size: 18px;
+    text-indent: 8%;
+    border: none;
+    outline: none;
+}
+.searchButtonIcon{
+    font-size: 18px;
+}
+.patientInfoList{
+    width: 100%;
+    margin: 25px auto;
+}
+.patientList {
+    /* border-radius: 25px; */
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    padding: 10px 20px 10px 20px;
+    border-top: 1px solid #eeebeb;
+    border-left: 1px solid #eeecec;
+    border-right: 1px solid #eeecec;
+    border-bottom: 1px solid #e6e3e3;
+    cursor: pointer;
+    text-decoration: none;
+}
+.patientList:nth-child(2n+1){
+    background-color: #fff;
+}
+.patientList:nth-child(2n+2){
+    background-color: #fcf6e8;
+}
+.patientList:hover{
+    background-color: #f3f3f3;
+}
+.patientImage {
+    /* padding: 0 100px 0 0; */
+    border-radius: 40px;
+    margin: 0 0 0px 30px;
+}
+.patientName{
+    padding: 5px 200px 0 200px;
+    font-family: 'Nunito', sans-serif;
+    color: #ff564a;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.patientNumber{
+    padding: 5px 0 0 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    left: 50%;
+    color: #acacac;
+}
+.phoneIcon {
+    padding: 20px 0 0 0;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 45%;
+}
+.filterButton{
+    background-color: #ff564a;
+    border-radius: 50px;
+    outline: none;
+    transition: 0.3s;
+    color: #fff;
+    cursor: pointer;
+    /* width: 5%;
+    height: 17%; */
+    float: right;
+    margin: 0 50px 0 0;
+}
+.filterButtonIcon {
+    padding: 19px;
+    font-size: 30px;
+}
+.filterButton:hover{
+    background-color:#cf6262;
+}

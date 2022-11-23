@@ -1,0 +1,33 @@
+.BlockFive{
+    width: 88%;
+    margin: 0 auto 40px auto;
+}
+.BFiveIn, .BFiveInputBox, .BFiveInput, .BFiveTextArea{
+    border-bottom: 1px solid #a0a0a0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 0 40px 0 0px;
+    font-size: 20px;
+    color: #0ac3db;
+    outline: none;
+}
+.BFiveIn {
+    width: 15%;
+}
+.BFiveInput{
+    width: 25%;
+}
+.BFiveInputBox{
+    width: 18%;
+}
+.BFiveTextArea {
+    width: 87%;
+}
+.BFiveHead{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #a0a0a0;
+    padding: 0px 0 0px 0;
+    margin: 25px 0 10px 0px;
+}

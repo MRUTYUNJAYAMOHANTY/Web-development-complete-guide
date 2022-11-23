@@ -1,0 +1,12 @@
+.signout{
+    background-color:  rgb(214, 30, 30);
+    color: white;
+    outline: none;
+    border:1px solid white;
+    padding: 9px 33px;
+    /* margin-top: 34px; */
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    display: block;
+}

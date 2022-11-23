@@ -1,0 +1,62 @@
+.FirstBlock {
+    display: flex;
+    width: 80%;
+    margin: 15px auto;
+}
+.TreatmentName{
+    font-size: 28px;
+    text-transform: capitalize;
+    color: #a0a0a0;
+    padding: 0px 0 0px 0;
+    margin: 15px 0 15px 0px;
+}
+.TreatmentBlock {
+    margin: 20px 25% 10px 0px;
+}
+.outputValues{
+    color: #0ac3db;
+    font-weight: 500;
+}
+.DMBlock{
+    margin: 20px 32% 10px 0px;
+}
+.PBCBlock{
+    margin: 20px 18% 10px 0px;
+}
+.PBCBlockTwo{
+    margin: 20px 10% 10px 0px;
+}
+.PBCBlockThree{
+    margin: 20px 0 10px 0px;
+}
+.InferGPLAValue{
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+    text-transform: capitalize;
+    width: 5%;
+    margin: 10px 0 15px 0;
+}
+.RisksBlock{
+    margin: 20px 17% 10px 0px;
+}
+.RXValues {
+    width: 60%;
+    margin: 29px 0 0px 0;
+    border-bottom: 1px solid #a0a0a0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 20px;
+    color: #0ac3db;
+    outline: none;
+    text-indent: 25%;
+    text-align: center;
+}
+.RXBlock{
+    margin: 20px 23% 10px 0px;
+}
+.planofcareBlock{
+    width: 80%;
+    margin: 15px auto;
+}

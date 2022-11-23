@@ -1,0 +1,78 @@
+.BThreeInfer{
+    display: flex;
+}
+.BlockThreeHeading {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #a0a0a0;
+    margin: 25px 30% 50px 0;
+}
+.BlockThreeSecHeading {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #a0a0a0;
+    margin: 25px 20% 50px 0;
+}
+.dobDateValue{
+    width: 80%;
+    margin: 29px 0 0px 0;
+    border-bottom: 1px solid #a0a0a0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 20px;
+    color: #0ac3db;
+    outline: none;
+    float: right;
+}
+.BlockFourButtons{
+    display: flex;
+}
+.PeriodRegBtn {
+    display: flex;
+    width: 20%;
+    height: 0%;
+    margin: 25px 0 0 34px;
+}
+.bleedingDateValue, .ClDateValue {
+    width: 10%;
+    margin: 29px 0 0px 0;
+    border-bottom: 1px solid #a0a0a0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 20px;
+    color: #0ac3db;
+    outline: none;
+    /* text-indent: 25%; */
+    text-align: center;
+}
+.InferBlockFour{
+    margin: 30px 0;
+}
+.Bleeding{
+    margin: 20px 0;
+}
+.BlockFourSecHeadingB {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #a0a0a0;
+    margin: 25px 31% 50px 0;
+}
+.BlockFourSecHeadingC{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #a0a0a0;
+    margin: 25px 26% 50px 0;
+}
+.BlockFourSecDay{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #a0a0a0;
+    padding: 0px 0 0px 10px;
+}
+.FourBlockGPLA {
+    display: flex;
+    width: 75%;
+    margin: 20px 0;
+}

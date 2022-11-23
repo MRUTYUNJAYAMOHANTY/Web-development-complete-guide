@@ -1,0 +1,63 @@
+ul li{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    float: right;
+    padding-right: 20px;
+    
+}
+/* .nav{
+    padding-right: 30px;
+} */
+.landing{
+    border:10px solid rgb(214, 30, 30);
+    background-color:rgb(214, 30, 30) ;
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* .signinbtn{
+    border:10px solid rgb(214, 30, 30);
+    background-color:rgb(214, 30, 30) ;
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+} */
+.lands{
+    border:10px solid rgb(214, 30, 30);
+    background-color:rgb(214, 30, 30) ;
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.home{
+    border:10px solid rgb(214, 30, 30);
+    background-color:rgb(214, 30, 30) ;
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.account{
+    background-color:  rgb(214, 30, 30);
+    color: white;
+    outline: none;
+    /* border-radius: 85px; */
+    padding: 9px 21px;
+    /* margin-top: 34px; */
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    font-weight: 400;
+    border-top:1px solid white
+
+}
+.admin{
+    border:10px solid rgb(214, 30, 30);
+    background-color:rgb(214, 30, 30) ;
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+}

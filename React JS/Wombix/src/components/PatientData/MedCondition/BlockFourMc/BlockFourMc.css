@@ -1,0 +1,28 @@
+.BlockFour{
+    width: 88%;
+    margin: 20px auto 25px auto;
+}
+.FourBlocks{
+    display: flex;
+    width: 75%;
+}
+.ConOne{
+    margin: 0 40px 0 0px;
+}
+.Heading {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #a0a0a0;
+    padding: 0px 0 0px 0;
+    margin: 15px 0 10px 0px;
+}
+.BlockFourInput{
+    width: 45%;
+    padding: 18px 30px 18px 30px;
+    color: #0ac3db;
+    font-size: 25px;
+}
+.BorderRightLine{
+    border-right: 1px solid #949494;
+    margin: 27px 40px 0px 0;
+}

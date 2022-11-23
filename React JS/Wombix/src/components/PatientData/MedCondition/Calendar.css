@@ -1,0 +1,156 @@
+/* @import 'react-big-calendar/lib/sass/styles';
+@import 'react-big-calendar/lib/addons/dragAndDrop/styles'; */
+
+.AppointmentCalendar{
+    width: 100%;
+    margin: 0 auto;
+}
+.AllAppointments{
+    color: #fff;
+    margin: 0 0 0 20px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.calenderToolbar {
+    width: 95%;
+    margin: 15px auto 0 auto;
+    display: flex;
+}
+.DayMonButtons {
+    padding: 12px 5px 0 0px;
+}
+.DMLabel {
+    /* width: 90%; */
+    margin: 0 auto -10px auto;
+    padding: 0px 0 0 0px;
+}
+.dateMonView {
+    display: inline-flex;
+    font-size: 20px;
+    margin: -15px 0 0px 0;
+    font-weight: 600;
+}
+.yearView {
+    margin: -18px 0 0 0;
+    color: #a0a0a0;
+    font-size: 15px;
+    font-weight: 600;
+}
+.MonthName{
+    text-transform: uppercase;
+}
+.date-in-past {
+    /* width: 10.3%; */
+    /* padding: 50px; */
+    background: #fff;
+    /* border-right: solid 1px #fff; */
+}
+.HeaderDate {
+    padding: 11px 0 11px 0;
+}
+.DayName {
+    margin: 5px 0 5px 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: #a0a0a0;
+}
+.BorderLineCalendar {
+    border-bottom: 1px solid #a0a0a0;
+    width: 40%;
+    margin: 0 auto;
+}
+.DayDate {
+    margin: 0px 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: #a0a0a0;
+}
+.TimeGutterHeader{
+    padding: 20px 20px;
+}
+.settingIcon{
+    color: #a0a0a0;
+    font-size: 35px;
+    text-transform: lowercase;
+    text-align: center;
+    font-weight: 500;
+}
+.MonthIcon {
+    display: flex;
+    padding: 0 0px 0 100px;
+}
+.CalIcon{
+    color: #a0a0a0;
+    font-size: 35px;
+    text-transform: lowercase;
+    text-align: center;
+    font-weight: 500;
+    padding: 0 0 0 10px;
+}
+.PrevButton {
+    font-size: 60px;
+    font-weight: 500;
+    border: none;
+    background: none;
+    color: #a0a0a0;
+    cursor: pointer;
+    transition: 0.6s;
+    outline: none;
+    position: relative;
+    top: 80px;
+    left: 60px;
+}
+
+.NextButton {
+    font-size: 60px;
+    font-weight: 500;
+    border: none;
+    background: none;
+    color: #a0a0a0;
+    cursor: pointer;
+    transition: 0.6s;
+    outline: none;
+    position: absolute;
+    top: 184px;
+    right: 0;
+}
+.NextButton:hover, .PrevButton:hover{
+    color: #ff564a;
+}
+.DayViewButton, .MonthViewButton {
+    padding: 8px 20px;
+    background-color: #a0a0a0;
+    outline: none;
+    color: #ecebeb;
+    border: 1px solid #a0a0a0;
+    font-size: 15px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.DayViewButton:hover{
+    background-color: #ecebeb;
+    color: #7a7979;
+}
+.DayViewLabel{
+    text-transform: uppercase;
+    padding: 0 32px 0 0px;
+    font-weight: 500;
+    /* position: relative;
+    top: 60px;
+    left: 10px; */
+}
+.DayViewHeader {
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+.DayViewDate {
+    margin: 5px 0 5px 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ff564a;
+}

@@ -1,0 +1,33 @@
+.PatientCheckupDates {
+    width: 95%;
+    margin: 0 auto;
+    /* background-color: dimgrey; */
+}
+.PatientScanIcons {
+    background-color: #ff6347;
+    width: 80%;
+    margin: 0px 3px 0 auto;
+}
+.CheckupIcon {
+    font-size: 42px;
+    padding: 0 85px 0 80px;
+    cursor: pointer;
+    color: white;
+    /* margin: 1em;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    letter-spacing: .3em;
+    text-indent: .3em;
+    color: #181818;
+    border-bottom: 3px solid transparent; */
+}
+.CheckupIcon:hover {
+    transform: translateY(-2px);
+}
+.CheckupIcon--active {
+    background-color: #fff;
+    transition: border-bottom .5s ease-in-out;
+    color: #ff6347;
+  }

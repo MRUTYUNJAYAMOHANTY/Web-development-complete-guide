@@ -1,0 +1,88 @@
+.BlockSix{
+    width: 88%;
+    margin: 0 auto 40px auto;
+}
+.LungsBlock {
+    margin: 0 0 80px 0;
+}
+.LungsButtons input[type=radio] {
+    visibility: hidden;
+}
+.LungsBtnOne, .LungsBtnTwo, .LungsBtnThree,.LungsActiveOne, .LungsActiveTwo, .LungsActiveThree{
+    /* width: 7%; */
+    border-radius: 50px;
+    padding: 40px;
+    cursor: pointer;
+    outline: none;
+    margin: 0 20px 0 0px;
+}
+.LungsActiveOne {
+    background-color: #5ee45e;
+    border: 7px solid #d6d6d6;
+}
+.LungsActiveTwo{
+    background-color: #bea784;
+    border: 7px solid #d6d6d6;
+}
+.LungsActiveThree{
+    background-color: #6b5a6eb9;
+    border: 7px solid #d6d6d6;
+}
+.LungsHead{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #a0a0a0;
+    padding: 0px 0 0px 0;
+    margin: 25px 0 25px 0px;
+}
+.LungsBtnOne[type=radio]:checked + .LungsActiveOne{
+    border: 7px solid #fff;
+    background-color: #5ee45e;
+    box-shadow: 0px 3px 30px 1px #5ee45e;
+}
+.LungsBtnTwo[type=radio]:checked + .LungsActiveTwo{
+    border: 7px solid #fff;
+    background-color: #bea784;;
+    box-shadow: 0px 3px 30px 1px #bea784;
+}
+.LungsBtnThree[type=radio]:checked + .LungsActiveThree{
+    border: 7px solid #fff;
+    background-color: #6b5a6eb9;
+    box-shadow: 0px 3px 30px 1px #6b5a6eb9;
+}
+/* .LungsActiveOne{
+    border: 7px solid #fff;
+    background-color: #5ee45e;
+    box-shadow: 0px 3px 30px 1px #5ee45e;
+} */
+/* .LungsActiveTwo{
+    border: 7px solid #fff;
+    background-color: #bea784;;
+    box-shadow: 0px 3px 30px 1px #bea784;
+}
+.LungsActiveThree{
+    border: 7px solid #fff;
+    background-color: #6b5a6eb9;
+    box-shadow: 0px 3px 30px 1px #6b5a6eb9;
+}  */
+.LungsButtons{
+    display: flex;
+}
+.LungsInput{
+    /* display: grid; */
+}
+.LungsIn{
+    width: 80%;
+    margin: 0 0 20px 0;
+    border-bottom: 1px solid #a0a0a0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 20px;
+    color: #0ac3db;
+    outline: none;
+}
+.BorderRightLineSix{
+    border-right: 1px solid #949494;
+    margin: 0px 90px 0px 45px;
+}

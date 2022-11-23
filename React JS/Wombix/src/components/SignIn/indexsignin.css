@@ -1,0 +1,114 @@
+.head {
+    width: 80%;
+    /* height: 500px; */
+    /* border: 1px solid gray; */
+    margin: 0 auto;
+    /* padding-bottom: 50px; */
+    /* background-color: rgb(102, 100, 100); */
+}
+.container{
+    /* background-image: url("E:/(wombix)-dec-30th/reactwombix/src/Assets/images (1).jpg");  */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:500px;
+
+}
+::-webkit-input-placeholder {
+    color: rgb(40, 41, 40);
+}
+  .contain {
+   width: 42%;
+    margin: 0 auto;
+    background-color: rgb(116, 102, 102);
+    border: 1px solid rgb(194, 191, 191);
+    border-radius: 3px;
+    margin-top: 8%;
+    padding: 45px;
+    opacity: 0.9;
+    /* position: relative;  */
+    /* padding-bottom: 100px; */
+}
+.emailaddress{
+    width: 90%;
+    /* padding-left: 40px; */
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    text-indent:8%;
+    padding-bottom: 7px;
+    background-color:  rgb(116, 102, 102);
+    color:white;
+    margin-bottom: 20px;
+  
+}
+.password1{
+    width: 90%;
+    /* padding-left: 40px; */
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    text-indent:8%;
+    padding-bottom: 7px;
+    background-color:  rgb(116, 102, 102);
+    color:white;
+}
+.mj{
+    color:#fdf4f4;
+}
+.mr{
+    color:#fdf4f4;
+}
+.signin {
+   
+    margin: 0 auto;
+    background-color: #ee3939;
+    color: white;
+    outline: none;
+    border-radius: 5px;
+    padding: 17px 109px;
+    margin-top: 40px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    display: flow-root;
+}
+/* .signout{
+    background-color:  rgb(214, 30, 30);
+    color: white;
+    outline: none;
+    border-radius: 85px;
+    padding: 9px 21px;
+   
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    display: block;
+} */
+/* ::-webkit-input-placeholder {
+    color:#fdf4f4;
+ } */
+ .fogetpassword {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(90, 90, 90);
+    text-decoration: none;
+    text-align: center;
+    /* float: right; */
+    /* position: absolute; */
+    /* padding-right: 220px; */
+    /* top: 507px; */
+    /* right: 585px; */
+    padding-left: 404px;
+}
+ .fogetpassword:hover{
+     color:red;
+ }
+ .errorMsg{
+     color:red;
+     font-size: 15px;
+     font-weight: 400;
+ }
+ .error{
+     color:red;
+     /* padding-bottom: 20px; */
+ }

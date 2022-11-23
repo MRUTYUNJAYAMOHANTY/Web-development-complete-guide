@@ -1,0 +1,84 @@
+.menu-bar{
+    background-color: rgb(207, 29, 29);
+    height: 80px;
+    display: grid;
+    width: 100%;
+  }
+  .nav-bar{
+    padding: 3px 3px;
+    color: #ffffff;
+  }
+  .nav-bar ul li{
+    list-style: none;
+    float: left;
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+  .Home, .envolop, .message{
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .Req-Patient{
+   background-color: #ffffff;
+   padding: 8px 15px;
+   color: red;
+   border-radius: 10px;
+   font-weight: bold;
+   font-size: 15px;
+   margin-left: 839px;
+   text-decoration: none;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .ul1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top:45px;
+    right:0px;
+    width: 125px;
+    background-color: white;
+    font-weight:bold;
+    position: absolute;
+  
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .li1 a {
+    color: #000;
+    text-decoration: none;
+  }
+  .li1 {
+    padding: 8px 16px;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .li1:last-child {
+    border-bottom: none;
+  }
+  .li1:hover {
+    background-color: #e5e5e5;
+    color: white;
+  }
+  .button{
+    width: 97px;
+    height: 20px;
+    border-radius:5px;
+    font-weight:bold;
+    color:white;
+  }
+  .button:before{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border: 8px solid;
+    border-color: white transparent transparent transparent;
+    right: 40px;
+    top: 15px;
+  }
+  .userpic{
+    border-radius: 50%;
+    width: 35px;
+  }

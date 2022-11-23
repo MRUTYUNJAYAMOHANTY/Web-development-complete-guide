@@ -1,0 +1,43 @@
+.BlockTwoButton[type=radio] {
+    position: absolute;
+    visibility: hidden;
+    display: none;
+}
+.buttonActive {
+    display: inline-block;
+    /* padding: 5px 20px; */
+    width: 45%;
+    /* padding: 20px; */
+    font-size: 20px;
+    padding: 10px 0 12px 0;
+    text-indent: 18%;
+    border: 1px solid #9c9c9c;
+    margin: 0 10px 0 0px;
+    background-color: #fff;
+    outline: none;
+    cursor: pointer;
+    color: #a0a0a0;
+  }
+.BlockTwoButton[type=radio]:checked + .buttonActive{
+    width: 45%;
+    /* padding: 20px; */
+    font-size: 20px;
+    padding: 10px 0 12px 0;
+    text-indent: 18%;
+    border: 1px solid #9c9c9c;
+    margin: 0 10px 0 0px;
+    background-color: #0ac3db;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+  }
+  /* label + input[type=radio] + label {
+    border-left: solid 3px #332f35;
+  } */
+  /* .radio{
+    border: solid 3px #332f35;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+  } */

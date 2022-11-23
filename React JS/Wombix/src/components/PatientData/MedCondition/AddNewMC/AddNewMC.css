@@ -1,0 +1,36 @@
+.AddMedicalNC {
+    width: 80%;
+    background-color: antiquewhite;
+    margin: 0 auto;
+}
+.AMCHead {
+    width: 99.5%;
+    margin: 0 auto;
+    border: 1px solid red;
+    background-color: burlywood;
+}
+.AMCHeading {
+    text-transform: capitalize;
+    color: #fff;
+    width: 85%;
+    margin: 25px auto;
+    font-size: 25px;
+}
+.AMCcontent {
+    width: 85%;
+    margin: 0 auto;
+}
+.AMCSelectors{
+
+}
+.AMCothers{
+    width: 80%;
+    margin: 0 0 20px 0;
+    border-bottom: 1px solid #a0a0a0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 20px;
+    color: #0ac3db;
+    outline: none;
+}

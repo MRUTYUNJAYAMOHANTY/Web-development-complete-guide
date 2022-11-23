@@ -1,0 +1,36 @@
+.search-bar{
+    width: 100%;
+    background-color: seashell;
+}
+.hrbar{
+    width: 95%;
+    border-bottom: 1px solid grey;
+    margin: 0 auto;
+    /* padding: 5% ; */
+}
+.search-input-bar{
+    padding: 5%;
+}
+.btn1{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 25px;
+    font-size: 22px;
+    color: rgb(156, 155, 155);
+}
+.search-input{
+    padding: 15px;
+    width: 90%;
+    text-indent: 5%;
+    
+}
+.input-button{
+    background-color: rgb(233, 48, 48);
+    /* padding: 12px 25px; */
+    border: 1px solid grey;
+    font-size: 22px;
+}
+.input-button i{
+    color: #ffffff;
+    padding: 8px 12px 17px 12px;
+}

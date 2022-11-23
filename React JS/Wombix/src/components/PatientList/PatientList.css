@@ -1,0 +1,21 @@
+.cpatient{
+    background-color: seashell;
+    /* padding: 7% 1%; */
+}
+.patienticon{
+    background-color: rgb(224, 37, 37);
+    width: 25%;
+    padding: 3% 3%;
+    margin: 70px 150px;
+    border: 1px solid rgb(202, 38, 38);
+    text-decoration: none;
+}
+.patient-icon{
+    width: 150px;
+    padding: 2%;
+}
+.figcaption{
+    color: #ffffff;
+    font-size: 20px;
+    margin: 22px 0px
+}
