@@ -10,3 +10,4 @@ Any npm packages can be installed or defined in 2 ways. Development and producti
 npm i nodemon --save > will install as production dependency
 npm i nodemon --save-dev > will install as development dependency
 npm i nodemon -g > will install globally
+To work with launch.json npm i nodemon -g is mandatory
