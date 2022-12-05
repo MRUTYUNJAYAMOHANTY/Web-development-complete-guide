@@ -145,3 +145,52 @@ var addArrow = (a, b) => {
   return a + b;
 };
 addArrow(2, 5, 8);
+///////////////////////////////////////
+// Objects vs. primitives
+// primitives
+// let age = 30;
+// let oldAge = age;
+// age = 31;
+// console.log(age);
+// console.log(oldAge);
+// reference
+// const me = {
+//   name: 'lucky',
+//   age: 30,
+// };
+// const friend = me;
+// friend.age = 27;
+// console.log('Friend:', friend);
+// console.log('Me', me);
+
+///////////////////////////////////////
+// Primitives vs. Objects in Practice
+// Primitive types
+let lastName = 'mohanty';
+let oldLastName = lastName;
+lastName = 'mohanty-alias';
+console.log(lastName, oldLastName);
+// Reference types
+const meAfter = {
+  firstName: 'mrutyunjaya',
+  lastName: 'mohan',
+  age: 25,
+};
+const marriedme = meAfter;
+marriedme.lastName = 'marrieddone';
+console.log('Before marriage:', meAfter);
+console.log('After marriage: ', marriedme);
+// marriedme = {};
+// Copying objects
+const meAfter2 = {
+  firstName: 'looka',
+  lastName: 'cool',
+  age: 25,
+  family: ['heaven', 'chill'],
+};
+const meAfterCopy = Object.assign({}, meAfter2);
+meAfterCopy.lastName = 'mohantycopy';
+meAfterCopy.family.push('heavencopy');
+meAfterCopy.family.push('chillcopy');
+console.log('Before marriage:', meAfter2);
+console.log('After marriage: ', meAfterCopy);
