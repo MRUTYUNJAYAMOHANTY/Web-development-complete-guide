@@ -2,16 +2,20 @@ const http = require('http');
 //const routes = require('./routes');
 //console.log(routes.someText);
 const express = require('express');
+const bodyParser = require('body-parser');
 const app = express();
 //const server = http.createServer(routes.handler);
-app.use('/', (req, res, next) => {
-  console.log('This always runs');
-  next(); //Allows the request to continue the next middleware inline
-});
+app.use(bodyParser.urlencoded({ extended: false })); // register middle wire
 app.use('/add-product', (req, res, next) => {
   console.log('In the first middleware');
   // next(); //Allows the request to continue the next middleware inline
-  res.send('<h1> The "Product tag" page </h1>');
+  res.send(
+    '<form action="/product" method="POST"><input type="text" name="title"><button type="submit">Add Product</button></form>'
+  );
+});
+app.post('/product', (req, res, next) => {
+  console.log(req.body);
+  res.redirect('/');
 });
 app.use('/', (req, res, next) => {
   console.log('In the second middleware');
