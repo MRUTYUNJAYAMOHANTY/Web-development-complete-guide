@@ -1,6 +1,20 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const mongoose = require('mongoose');
+
+const Post = require('./models/post');
 const app = express();
+mongoose.set('strictQuery', true);
+mongoose
+  .connect(
+    'mongodb+srv://lucky:Znkxvm4JFNzNxHMU@meanclusture.hq1rfzv.mongodb.net/test'
+  )
+  .then(() => {
+    console.log('connected to mongodb database');
+  })
+  .catch(() => {
+    console.log('connection failed!');
+  });
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 // CORS MIDDLEWARE
@@ -17,7 +31,10 @@ app.use((req, res, next) => {
   next();
 });
 app.post('/api/posts', (req, res, next) => {
-  const post = req.body;
+  const post = new Post({
+    title: req.body.title,
+    content: req.body.content,
+  });
   console.log(post);
   res.status(201).json({
     message: 'Posts added successfully',
