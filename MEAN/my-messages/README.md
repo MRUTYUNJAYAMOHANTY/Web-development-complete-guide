@@ -8,3 +8,6 @@ Run 2 terminals
 CORS : Cross-origin resource sharing
 
 - Occurs when client and server are in different host
+
+3. MongoDB
+   db>collection>document

@@ -7,8 +7,8 @@ const app = express();
 mongoose.set('strictQuery', true);
 mongoose
   .connect(
-    'mongodb+srv://lucky:Znkxvm4JFNzNxHMU@meanclusture.hq1rfzv.mongodb.net/test'
-  )
+    'mongodb+srv://lucky:Znkxvm4JFNzNxHMU@meanclusture.hq1rfzv.mongodb.net/node-angular'
+  ) //In URL node-angular is data base.Can be change simply changing in URL
   .then(() => {
     console.log('connected to mongodb database');
   })
@@ -35,6 +35,7 @@ app.post('/api/posts', (req, res, next) => {
     title: req.body.title,
     content: req.body.content,
   });
+  post.save(); //create new entry/document.document is stored in collections.Name of collection will be plural form and all small letter of model name
   console.log(post);
   res.status(201).json({
     message: 'Posts added successfully',
