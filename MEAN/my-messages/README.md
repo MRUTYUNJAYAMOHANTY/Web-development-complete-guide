@@ -1,5 +1,6 @@
 # MyMessages
-
+    
+                     *Development Environment*
 Run 2 terminals
 
 1. FRONTEND : ng serve
@@ -14,6 +15,8 @@ CORS : Cross-origin resource sharing
 
    * Recommended - For production and development use two different cluster in mongondb.But it will 
      cost money , so in this project one cluster is used. 
+
+                          *Production Environment*
 
 4. CLOUD : AWS DEPLOYMENT
 
