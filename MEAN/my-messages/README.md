@@ -17,7 +17,7 @@ CORS : Cross-origin resource sharing
 
 4. CLOUD : AWS DEPLOYMENT
 
-     * NodeJS - Elastic Beanstalk , ANGULAR - S3
+     * NodeJS - Elastic Beanstalk(EB) , ANGULAR - S3
      * S3 is static is for static content, Elastic Beanstalk(EB) is for dynamic content
      * ng build  
   
