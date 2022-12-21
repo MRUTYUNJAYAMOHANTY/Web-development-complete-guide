@@ -16,13 +16,13 @@ CORS : Cross-origin resource sharing
      cost money , so in this project one cluster is used. 
 
 4. CLOUD : AWS DEPLOYMENT
-    API - Elastic Beanstalk
-    ANGULAR - S3
+
+     * NodeJS - Elastic Beanstalk , ANGULAR - S3
      * S3 is static is for static content, Elastic Beanstalk(EB) is for dynamic content
      * ng build  
   
   * AWS HOST URL
-  
+
     DYNAMIC -
     For single app deployment(both node and angular in one port and one directory) 
     http://nodeangular-env.eba-84hhqj3h.ap-northeast-1.elasticbeanstalk.com/
