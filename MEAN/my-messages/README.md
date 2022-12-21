@@ -21,11 +21,13 @@ CORS : Cross-origin resource sharing
      * S3 is static is for static content, Elastic Beanstalk(EB) is for dynamic content
      * ng build  
   
-  * AWS STATIC HOST URL
-
+  * AWS HOST URL
+  
+    DYNAMIC -
     For single app deployment(both node and angular in one port and one directory) 
     http://nodeangular-env.eba-84hhqj3h.ap-northeast-1.elasticbeanstalk.com/
-    
+
+    STATIC -
     For two apps deployment(one port FE and one port BE , 2 different directory)
     http://my-messages-mean-stack.s3-website-ap-northeast-1.amazonaws.com/
 
