@@ -2,6 +2,7 @@
 
 # Compiled output
 /dist
+/api/angular
 /tmp
 /out-tsc
 /bazel-out

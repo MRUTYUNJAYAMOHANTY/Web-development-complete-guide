@@ -39,4 +39,7 @@ CORS : Cross-origin resource sharing
         2. deploy 1 combined app
            . Node REST API which renders the angular app too
           N.B : CORS headers are not required
-     
+          N.B : To make this we have to modify outputPath:api/anyname.
+                This will make a new directory(folder must not exist previously) 
+                naming as anynamne while doing ng build.
+                   

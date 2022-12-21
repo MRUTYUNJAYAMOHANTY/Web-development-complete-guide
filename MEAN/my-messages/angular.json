@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/my-messages",
+            "outputPath": "api/angular",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
