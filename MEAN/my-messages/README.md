@@ -16,7 +16,7 @@ CORS : Cross-origin resource sharing
    * Recommended - For production and development use two different cluster in mongondb.But it will 
      cost money , so in this project one cluster is used. 
 
-                          *Production Environment*
+                      *Production Environment*
 
 4. CLOUD : AWS DEPLOYMENT
 
