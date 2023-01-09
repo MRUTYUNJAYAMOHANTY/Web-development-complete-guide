@@ -1,7 +1,7 @@
 - 🔥🚀 Web-development-complete-roadmap-guide 💯
 
 * 👨‍💻 FrontEnd 😎: HTML,CSS,JS,Angular,React
-* 🤐 BackEnd 😎: NodjeJs
+* 🤐 BackEnd 😎: NodeJs
 * ⛴️ Database: MongoDB
 * ☁️ CLOUD 😎: AWS
 * 🕸️ VCS 😎: GIT
