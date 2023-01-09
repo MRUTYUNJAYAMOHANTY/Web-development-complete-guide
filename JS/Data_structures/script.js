@@ -111,7 +111,7 @@ const {
 console.log(o, c1);
 
 ///////////////////////////////////////
-// The Spread Operator (...)
+// The Spread Operator (...) // unpack an array
 const arr1 = [7, 8, 9];
 const badNewArr = [1, 2, arr1[0], arr1[1], arr1[2]];
 console.log(badNewArr);
@@ -127,7 +127,7 @@ const mainMenuCopy = [...restaurant.mainMenu];
 const menu1 = [...restaurant.starterMenu, ...restaurant.mainMenu];
 console.log(menu1);
 // Iterables: arrays, strings, maps, sets. NOT objects
-const str = 'Jonas';
+const str = 'lucky';
 const letters = [...str, ' ', 'S.'];
 console.log(letters);
 console.log(...str);
@@ -150,7 +150,7 @@ console.log(restaurantCopy.name);
 console.log(restaurant.name);
 
 ///////////////////////////////////////
-// Rest Pattern and Parameters
+// Rest Pattern and Parameters // pack an array
 // 1) Destructuring
 // SPREAD, because on RIGHT side of =
 const arr2 = [1, 2, ...[3, 4]];
@@ -178,3 +178,27 @@ const x1 = [23, 5, 7];
 add(...x1);
 restaurant.orderPizza('mushrooms', 'onion', 'olives', 'spinach');
 restaurant.orderPizza('mushrooms');
+
+///////////////////////////////////////
+// Short Circuiting (&& and ||)
+console.log('---- OR ----');
+// Use ANY data type, return ANY data type, short-circuiting
+console.log(3 || 'lucky');
+console.log('' || 'lucky');
+console.log(true || 0);
+console.log(undefined || null);
+console.log(undefined || 0 || '' || 'Hello' || 23 || null);
+restaurant.numGuests = 0;
+const guests1 = restaurant.numGuests ? restaurant.numGuests : 10;
+console.log(guests1);
+const guests2 = restaurant.numGuests || 10;
+console.log(guests2);
+console.log('---- AND ----');
+console.log(0 && 'lucky');
+console.log(7 && 'lucky');
+console.log('Hello' && 23 && null && 'lucky');
+// Practical example
+if (restaurant.orderPizza) {
+  restaurant.orderPizza('mushrooms', 'spinach');
+}
+restaurant.orderPizza && restaurant.orderPizza('mushrooms', 'spinach');
