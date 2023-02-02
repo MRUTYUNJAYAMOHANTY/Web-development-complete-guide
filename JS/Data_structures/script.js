@@ -238,3 +238,12 @@ rest1.owner &&= '<ANONYMOUS>';
 rest2.owner &&= '<ANONYMOUS>';
 console.log(rest1);
 console.log(rest2);
+
+///////////////////////////////////////
+// The for-of Loop
+const menuof = [...restaurant.starterMenu, ...restaurant.mainMenu];
+for (const item of menuof) console.log(item);
+for (const [i, el] of menuof.entries()) {
+  console.log(`${i + 1}: ${el}`);
+}
+// console.log([...menu.entries()]);
