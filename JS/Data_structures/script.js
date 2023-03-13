@@ -275,6 +275,7 @@ else console.log('user array empty');
 
 ///////////////////////////////////////
 // Sets
+// sets is a collection of unique values,never have duplicate.Iterable like array
 const ordersSet = new Set([
   'Pasta',
   'Pizza',
