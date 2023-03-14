@@ -305,6 +305,9 @@ console.log(
 console.log(new Set('MrutyunjayaMohanty').size);
 
 ///////////////////////////////////////
+// In map data stored in key value pair.Difference between Key & object is ,
+// In maps key has any type(object,array,map) but in objects key is only string .
+// whenever need a map means already have object
 // Maps: Fundamentals
 const rest = new Map();
 rest.set('name', 'Classico Italiano');
@@ -362,5 +365,34 @@ console.log([...question]);
 console.log([...question.keys()]);
 console.log([...question.values()]);
 
+// choosing data structure
+/*
+    source of data - 
+     1. From the program itself (written in source code)
+     2. From the UI (Input from user or written in DOM)
+     3. From external sources (Data fetched from web API)
+  
+   > If we need a simple list : Arrays or sets
+   > If we need a key value pair : Object or map
+   
+   * Array vs set : 
+     Array :
+          . whenever we need ordered list of values (might contain duplicates)
+          . when we need to manipulate data
+     Set : 
+           . when we need to work with unique values
+           . when high performance is really important
+           . used to remove duplicates from arrays
+
+    * Objects vs Maps 
+      Objects : 
+          . traditional key/value store
+          . use when we need to include functions(methods)
+          . use when working with JSON (can convert to map)
+      Maps : 
+          . Better performance.Key can have any data type   
+          . use when simply need to map kay to values
+          . use when we need keys that are not strings 
+*/
 
 
