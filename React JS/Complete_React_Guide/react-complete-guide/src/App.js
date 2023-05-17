@@ -25,10 +25,10 @@
 import ExpenseItem  from "./components/ExpenseItem";
 
 function App() {
-  const expenses = [{id:'e1',title:'movie',amount: 245.38,date:new Date(2021,2,2)},
-  {id:'e2',title:'car insurance',amount: 1234.44,date:new Date(2022,4,1)},
-  {id:'e3',title:'travel',amount: 2459.14,date:new Date(2022,3,6)},
-  {id:'e4',title:'temple',amount: 325.51,date:new Date(2023,1,5)}]
+  const expenses = [{id:'e1',title:'Movie',amount: 245.38,date:new Date(2021,2,2)},
+  {id:'e2',title:'Car Insurance',amount: 1234.44,date:new Date(2022,4,1)},
+  {id:'e3',title:'Travel',amount: 2459.14,date:new Date(2022,3,6)},
+  {id:'e4',title:'Temple',amount: 325.51,date:new Date(2023,1,5)}]
   return (
     <div>
       <h2>Let's get started!</h2>
