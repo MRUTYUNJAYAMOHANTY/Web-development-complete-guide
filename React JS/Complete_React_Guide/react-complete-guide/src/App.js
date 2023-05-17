@@ -35,19 +35,19 @@ function App() {
       <ExpenseItem
       name={expenses[0].title}
       amount={expenses[0].amount}
-      time={expenses[0].date}></ExpenseItem>
+      time={expenses[0].date} />
       <ExpenseItem
       name={expenses[1].title}
       amount={expenses[1].amount}
-      time={expenses[1].date}></ExpenseItem>
+      time={expenses[1].date} />
       <ExpenseItem
       name={expenses[2].title}
       amount={expenses[2].amount}
-      time={expenses[2].date}></ExpenseItem>
+      time={expenses[2].date} />
       <ExpenseItem
       name={expenses[3].title}
       amount={expenses[3].amount}
-      time={expenses[3].date}></ExpenseItem>
+      time={expenses[3].date} />
     </div>
   );
 }
