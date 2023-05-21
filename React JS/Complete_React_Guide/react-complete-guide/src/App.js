@@ -22,7 +22,7 @@
 //   );
 // }
 
-import Expenses  from "./components/Expenses";
+import Expenses  from "./components/Expenses/Expenses";
 
 function App() {
   const expenses = [{id:'e1',title:'Movie',amount: 245.38,date:new Date(2021,2,2)},
