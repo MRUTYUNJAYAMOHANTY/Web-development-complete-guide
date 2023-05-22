@@ -24,7 +24,7 @@
 
 import Expenses  from "./components/Expenses/Expenses";
 
-function App() {
+const App = () => {
   const expenses = [{id:'e1',title:'Movie',amount: 245.38,date:new Date(2021,2,2)},
   {id:'e2',title:'Car Insurance',amount: 1234.44,date:new Date(2022,4,1)},
   {id:'e3',title:'Travel',amount: 2459.14,date:new Date(2022,3,6)},

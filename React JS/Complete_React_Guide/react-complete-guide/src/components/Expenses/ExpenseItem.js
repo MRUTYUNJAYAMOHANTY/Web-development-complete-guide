@@ -2,7 +2,7 @@ import ExpenseDate from './ExpenseDate';
 import Card from '../UI/Card';
 import './ExpenseItem.css';
 // we can pass any name as props,below we pass  
-function ExpenseItem(props){
+const ExpenseItem =(props) =>{
     
     return (
         <Card className='expense-item'>
