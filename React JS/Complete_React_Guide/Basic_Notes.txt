@@ -2,3 +2,12 @@
      e.g : <component></component> As no content so we can write <component />. it's optional
 
 > JSX is substitute of React.createElement is substitute 
+
+> working with state 
+   e.g useState
+ . useState must be called only inside of component function
+ . useState must not be called in any nested function inside component function 
+ . useState always return an array of exactly 2 elements. In which first element is current state value and
+   2nd element is a function for updating that value. 
+ . registers some values as a state for the component in which it is been called.
+ . registers for specific component instance. Per component instance basis    
