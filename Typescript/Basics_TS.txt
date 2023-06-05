@@ -1,0 +1,2 @@
+Q:1: What does TS does 
+ANS  static checking
