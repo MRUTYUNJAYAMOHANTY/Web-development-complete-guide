@@ -550,3 +550,25 @@ const planesInLine = function (n) {
 planesInLine(5);
 planesInLine(3);
 planesInLine(12);
+
+///////////////////////////////////////
+// String Methods Practice
+
+const airways =
+  '_Delayed_Departure;bbi93766109;brll2133758440;11:25+_Arrival;del0943384722;pun93766109;11:45+_Delayed_Arrival;mum7439299980;bbi93766109;12:05+_Departure;kol93766109;che2323639855;12:30';
+
+// 🔴 Delayed Departure from BBI to BRL (11h25)
+//              Arrival from DEL to PUN (11h45)
+//   🔴 Delayed Arrival from MUM to BBI (12h05)
+//            Departure from KOL to CHE (12h30)
+
+const getCode = str => str.slice(0, 3).toUpperCase();
+
+for (const airway of airways.split('+')) {
+  const [type, from, to, time] = airway.split(';');
+  const output = `${type.startsWith('_Delayed') ? '🔴' : ''}${type.replaceAll(
+    '_',
+    ' '
+  )} ${getCode(from)} ${getCode(to)} (${time.replace(':', 'h')})`.padStart(36);
+  console.log(output);
+}
