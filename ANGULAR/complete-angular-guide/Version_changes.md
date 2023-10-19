@@ -1,7 +1,7 @@
 # ng_Version_Changes with change of major version cli (migration to next major version)
 Mapping Angular2+ Version changes
 
-ng update @angular/cli@14
+ng update @angular/cli@14 --force
 Above 14 is major version name . It can be any numer i.e which major version is going to be updated
 
 # ng cli v14 changes from v13
