@@ -3,6 +3,7 @@ Mapping Angular2+ Version changes
 
 Its recommended and it is must that working tree should be clean while performing migration to next major version. That is every thing must be commited
 
+ng update @angular/cli @angular/core --force > if this did not work try below
 ng update @angular/cli@14 --force
 Above 14 is major version name . It can be any numer i.e which major version is going to be updated
 
