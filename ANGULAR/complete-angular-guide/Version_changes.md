@@ -45,4 +45,3 @@ Mapping Angular2+ Version changes
     
     entryComponents key is depricated from @NgModule class.
     
-    Version_changes.md
