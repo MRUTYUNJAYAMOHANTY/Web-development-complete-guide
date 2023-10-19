@@ -1,6 +1,8 @@
 # ng_Version_Changes with change of major version cli (migration to next major version)
 Mapping Angular2+ Version changes
 
+Its recommended and it is must that working tree should be clean while performing migration to next major version. That is every thing must be commited
+
 ng update @angular/cli@14 --force
 Above 14 is major version name . It can be any numer i.e which major version is going to be updated
 
@@ -99,4 +101,30 @@ Above 14 is major version name . It can be any numer i.e which major version is 
     }
     
 # ng cli v16 changes from v15
+
+> JSON key which getting impacted in package.json / package-lock.json ng update @angular/cli@16
+  {
+    "dependencies": {
+        "@angular/animations": "^16.2.10",
+        "@angular/common": "^16.2.10",
+        "@angular/compiler": "^16.2.10",
+        "@angular/core": "^16.2.10",
+        "@angular/forms": "^16.2.10",
+        "@angular/platform-browser": "^16.2.10",
+        "@angular/platform-browser-dynamic": "^16.2.10",
+        "@angular/router": "^16.2.10",
+        "zone.js": "~0.13.3"
+    },
+    "devDependencies": {
+        "@angular-devkit/build-angular": "^16.2.6",
+        "@angular/cli": "^16.2.6",
+        "@angular/compiler-cli": "^16.2.10",
+        "ng-packagr": "^16.2.3"
+    }
+  } 
+
+  > CanActivate, CanActivateChild, Resolve, CanDeactivate depricated 
+    we used with 
+    import { CanActivate,CanActivateChild, Resolve, CanDeactivate} from '@angular/router'; // depricated
+ 
 
