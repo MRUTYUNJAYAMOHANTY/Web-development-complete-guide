@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { UntypedFormControl, UntypedFormGroup, Validators } from '@angular/forms';
 
 import { CustomValidators } from './custom-validators';
 @Component({
@@ -11,17 +11,17 @@ export class PracticeReactiveComponent implements OnInit {
 
   constructor() { }
 
-  projectForm: FormGroup;
+  projectForm: UntypedFormGroup;
 
   ngOnInit() {
-    this.projectForm = new FormGroup({
-      'projectName': new FormControl(
+    this.projectForm = new UntypedFormGroup({
+      'projectName': new UntypedFormControl(
         null,
         [Validators.required, CustomValidators.invalidProjectName],
         CustomValidators.asyncInvalidProjectName
       ),
-      'email': new FormControl(null, [Validators.required, Validators.email]),
-      'projectStatus': new FormControl('critical')
+      'email': new UntypedFormControl(null, [Validators.required, Validators.email]),
+      'projectStatus': new UntypedFormControl('critical')
     });
   }
 
