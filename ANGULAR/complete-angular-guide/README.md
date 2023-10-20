@@ -8,7 +8,7 @@
     official docs
     https://angular.io/guide/workspace-config
 # create application (e.g my-app)
-  ng g application my-app --no-strict
+  ng g application my-app --no-strict --force
 # create component without spec files 
   ng g c component-name --skip-tests
   ## --no-strict is optional

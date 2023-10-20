@@ -52,7 +52,7 @@ Above 14 is major version name . It can be any numer i.e which major version is 
     
     entryComponents key is depricated from @NgModule class.
 
-  > Standalone components added in V14
+  > Standalone components,directives,pipes added in V14
    
 # ng cli v15 changes from v14
 
@@ -129,5 +129,7 @@ Above 14 is major version name . It can be any numer i.e which major version is 
   > CanActivate, CanActivateChild, Resolve, CanDeactivate depricated 
     we used with 
     import { CanActivate,CanActivateChild, Resolve, CanDeactivate} from '@angular/router'; // depricated
+
+  > signals feature introduced in v16  
  
 
