@@ -1,4 +1,4 @@
-# CompleteAngularGuide (Version 13.3.0)
+# CompleteAngularGuide (Repository is started with Version 13.3.0). This repository is getting  updated with latest next major version. Version change details for this work space is described in Version_changes.md
   * We are covering all angular concepts in individual concept wise folders/projects structure. 
   * We are incorporating common library setup.   
   * We have done a real time project wit UTC & e2e testing.
