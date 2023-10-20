@@ -51,7 +51,9 @@ Above 14 is major version name . It can be any numer i.e which major version is 
   > Changes in Module file 
     
     entryComponents key is depricated from @NgModule class.
-    
+
+  > Standalone components added in V14
+   
 # ng cli v15 changes from v14
 
   > .browserslistrc got depricated
