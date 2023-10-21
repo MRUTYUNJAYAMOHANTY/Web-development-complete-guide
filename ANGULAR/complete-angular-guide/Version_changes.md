@@ -53,6 +53,8 @@ Above 14 is major version name . It can be any numer i.e which major version is 
     entryComponents key is depricated from @NgModule class.
 
   > Standalone components,directives,pipes added in V14
+    . Advantages of standalone component is they work without module
+    . less boiler-plate code needed for application
    
 # ng cli v15 changes from v14
 
