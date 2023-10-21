@@ -1,3 +1,6 @@
+/*
+
+
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -11,3 +14,5 @@ import { WelcomeComponent } from './welcome/welcome.component';
   // bootstrap: [AppComponent],
 })
 export class AppModule {}
+
+*/
