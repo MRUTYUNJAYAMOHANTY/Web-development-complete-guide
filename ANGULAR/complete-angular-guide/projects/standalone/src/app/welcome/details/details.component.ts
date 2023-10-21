@@ -8,6 +8,9 @@ import { HighlightDirective } from '../../shared/highlight.directive';
   selector: 'app-details',
   templateUrl: './details.component.html',
   styleUrls: ['./details.component.css'],
+  // providers: [AnalyticsService] this is possible but component gets its own object. If same service is 
+  // used for multiple instances of a component so we get multiple instance of service as well. which is
+  // not efficient  
 })
 export class DetailsComponent {
   constructor(private analyticsService: AnalyticsService) {}
