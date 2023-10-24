@@ -10,4 +10,6 @@ import { CounterControlsComponent } from './counter-controls/counter-controls.co
   standalone: true,
   imports: [CounterOutputComponent, CounterControlsComponent],
 })
-export class AppComponent {}
+export class AppComponent {
+  title: any;
+}
