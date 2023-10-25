@@ -1,6 +1,6 @@
 import { Action, createReducer, on } from "@ngrx/store";
 //import { CounterAction, INCREMENT, IncrementAction } from "./counter.action";
- import { decrement, increment } from "./counter.action";
+ import { decrement, increment } from "./counter.actions";
 
 const initialSte = 0;
 
